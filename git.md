@@ -7,7 +7,7 @@ Install git
 Configure
 ---------
 
-T set your
+To set your
 
 - email
 - user
