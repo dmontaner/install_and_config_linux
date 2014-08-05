@@ -11,7 +11,7 @@ Set your
 
 - email
 - user
-- text editor (used when writing commit mesages)
+- text editor (used when writing commit mesages)  
 
 
     git config --global user.email "david.montaner@gmail.com"
