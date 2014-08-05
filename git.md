@@ -7,12 +7,13 @@ Install git
 Configure
 ---------
 
-Set your
+T set your
 
 - email
 - user
-- text editor (used when writing commit mesages)  
+- text editor (used when writing commit mesages)
 
+use the commands: 
 
     git config --global user.email "david.montaner@gmail.com"
     git config --global user.name "dmontaner"
