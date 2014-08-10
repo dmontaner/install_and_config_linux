@@ -6,11 +6,15 @@ and follow the __JDK__ download link (not the JRE ones)
 
 Accept the _License Agreement_ and download the file: jdk-****-linux-x64.tar.gz
 
-Uncompress in '/opt/' creating the folder 'jdk-****-linux-x64'
+Uncompress in the folder '/opt' creating the sub-folder 'jdk-****'
 
-     ln -s /opt/jdk-****-linux-x64/ /opt/java
+    sudo tar -xvzf jdk-8u11-linux-x64.tar.gz 
 
-Add it to your paht (edit /etc/profile file):
+Create the symbolic link: 
+
+     ln -s /opt/jdk-**** /opt/java
+
+Add the /opt/java folder to your path. Use the `/etc/profile` file to do this
 
     export JAVA_HOME=/opt/java
     export PATH=$JAVA_HOME/bin:$PATH
