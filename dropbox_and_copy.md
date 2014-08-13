@@ -23,3 +23,15 @@ Start the application:
 ----------------------
 
     .dropbox-dist/dropboxd &
+
+
+
+
+
+Install Copy
+=============
+
+
+
+Download the app from <https://www.copy.com/install>
+
