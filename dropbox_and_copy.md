@@ -31,6 +31,10 @@ Start the application:
 Install Copy
 =============
 
+Dependencies:
+
+    sudo apt-get install libcanberra-gtk-module libcanberra-gtk-module-dbg
+
 
 
 Download the app from <https://www.copy.com/install>
