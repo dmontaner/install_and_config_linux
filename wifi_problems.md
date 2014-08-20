@@ -36,9 +36,4 @@ here I do not do the __wl__ indicated in the link above.
     sudo modprobe brcmsmac
     echo "brcmsmac" | sudo tee -a /etc/modules
     
-I do not do the changes indicated in the blacklist file `/etc/modprobe.d/blacklist.conf`
-
-
-    
-    
-    
+I do __not do__ the changes indicated in the blacklist file `/etc/modprobe.d/blacklist.conf`
