@@ -1,11 +1,11 @@
 Emacs Markdown Mode
 ===================
 
-Do
+Install: 
 
     sudo apt-get  install emacs-goodies-el
 
-and include this in your `.emacs` file
+and include this lines in your `.emacs` file
 
 
 ```
@@ -15,3 +15,7 @@ and include this in your `.emacs` file
 (add-to-list 'auto-mode-alist '("\\.markdown\\'" . markdown-mode))
 (add-to-list 'auto-mode-alist '("\\.md\\'" . markdown-mode))
 ```
+
+
+More details at: <http://jblevins.org/projects/markdown-mode/>
+
