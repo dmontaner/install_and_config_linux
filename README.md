@@ -17,12 +17,10 @@ Download the appropriated __iso__ file from the ?ubuntu web page and run:
 
 or go to the _Startup Disk Creator_ application.
 
-Just follow the default steps.
+Insert the pen drive and follow the default steps.
 
+See:
 
-
-http://www.ubuntu.com/download/desktop/create-a-usb-stick-on-ubuntu
-
-<https://help.ubuntu.com/community/Installation/FromUSBStick>
-and
-<http://www.ubuntu.com/download/desktop/create-a-usb-stick-on-ubuntu>
+- <http://www.ubuntu.com/download/desktop/create-a-usb-stick-on-ubuntu>
+- <http://www.ubuntu.com/download/desktop/install-ubuntu-desktop>
+- <https://help.ubuntu.com/community/Installation/FromUSBStick>
