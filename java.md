@@ -21,4 +21,4 @@ Add the /opt/java folder to your path. Use the `/etc/profile` file to do this
 
 Thus when you upgrade your java version you just need to rewrite the symbolic link 
 
-Conviene ademas generar la variable '$JAVA_HOME' ... por ejemplo R la necestia para configurarse con el java.
+The '$JAVA_HOME' variable is used by some applications, R for instance.
