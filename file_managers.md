@@ -13,7 +13,7 @@ Open terminal here
 ------------------
 
 ```
-sudo add-apt-repository universe
+sudo add-apt-repository universe  # may be not needed
 sudo apt-get update
 sudo apt-get install nautilus-open-terminal
 sudo apt-get install nautilus-actions
@@ -28,3 +28,5 @@ Nemo
 ===================================================
 
 Nemo suports the __split screen__ option (F3).
+
+    sudo apt-get install nemo
