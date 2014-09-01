@@ -12,7 +12,7 @@ Uncompress in the folder '/opt' creating the sub-folder 'jdk-****'
 
 Create the symbolic link: 
 
-     ln -s /opt/jdk-**** /opt/java
+    sudo ln -s /opt/jdk-**** /opt/java
 
 Add the /opt/java folder to your path. Use the `/etc/profile` file to do this
 
