@@ -21,3 +21,10 @@ sudo apt-get install nautilus-actions
 
 See: 
 <http://askubuntu.com/questions/450280/open-in-terminal-action-in-nautilus-in-ubuntu-14-04>
+
+
+
+Nemo
+===================================================
+
+Nemo suports the __split screen__ option (F3).
