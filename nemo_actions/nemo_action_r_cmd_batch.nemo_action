@@ -1,0 +1,35 @@
+##nemo_action_r_cmd_batch.nemo_action
+##2013-12-09 dmontaner@cipf.es
+##2014-09-01 dmontaner@cipf.es
+##Nemo action file to execute R CMD BATCH
+
+## Custom action files (.nemo_action) may be located at: 
+## - /usr/share/nemo/actions/
+## - $HOME/.local/share/nemo/actions/
+
+## Exec: the executable file. May be anyware. Must be EXECUTABLE.
+
+## Icon-Name: must be the name of the file containing the image WITHOUT extension.
+##            Must be located some of the icon folders of the system.
+##            In my Xfce this means: /usr/share/icons (also in Ubuntu 14.04).
+##            Must have read permissions.
+
+## Selection: What type selection: [S]ingle, [M]ultiple, Any, NotNone, None (background click), 
+##            or a number representing how many files must be selected to display.
+##            Defaults to Single if this field is missing.
+
+## Extensions: What extensions to display on - this is an array, end with a semicolon
+##             Use "dir" for directory selection and "none" for no extension
+##             Use "any" by itself, semi-colon-terminated, for any file type
+##             Extensions are NOT case sensitive. jpg will match JPG, jPg, jpg, etc... (r & R)
+
+[Nemo Action]
+Active=true
+Name=R CMD BATCH
+Comment=Runs an R script in batch mode
+
+Exec=/usr/share/nemo/actions/nemo_action_r_cmd_batch.sh %F
+
+Icon-Name=Rlogo
+Selection=Single
+Extensions=r;
