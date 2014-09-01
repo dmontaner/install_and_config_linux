@@ -17,5 +17,5 @@ TiddlyFox extension for Firefox
 
 A Firefox extension to enable TiddlyWiki to save changes directly to the file system.
 
-Install from __Add-ons menu__ in the browser or: <https://addons.mozilla.org/en-US/firefox/addon/tiddlyfox/>
+Install <https://addons.mozilla.org/en-US/firefox/addon/tiddlyfox/>
 
