@@ -24,3 +24,9 @@ See:
 - <http://www.ubuntu.com/download/desktop/create-a-usb-stick-on-ubuntu>
 - <http://www.ubuntu.com/download/desktop/install-ubuntu-desktop>
 - <https://help.ubuntu.com/community/Installation/FromUSBStick>
+
+
+Once ubuntu is installed you may want to run:
+
+    sudo apt-get update
+    sudo apt-get upgrade
