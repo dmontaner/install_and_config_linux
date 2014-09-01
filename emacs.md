@@ -1,3 +1,8 @@
+Install: 
+
+    sudo apt-get install 
+
+
 Emacs Markdown Mode
 ===================
 
