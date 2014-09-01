@@ -7,36 +7,11 @@ Run
 
     dropbox start -i
 
-and configure your user. 
+to start the application and configure your user. 
 
 Make sure you tick the option _Start Dropbox on system startup_.
 This will include Dropbox in the __Startup Applications Preferences__ of the ubuntu system. 
 
-
-<!-- 
-Dependencies:
--------------
-
-    sudo apt-get install 
-
-Install
---------
-
-See <https://www.dropbox.com/install?os=lnx>
-
-Basically do:
-
-    cd ~ 
-    wget -O - "https://www.dropbox.com/download?plat=lnx.x86_64" | tar xzf -
-
-this will create the `.dropbox-dist folder`
-
-
-Start the application: 
-----------------------
-
-    .dropbox-dist/dropboxd &
--->
 
 
 
