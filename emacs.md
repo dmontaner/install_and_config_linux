@@ -21,6 +21,7 @@ and include this lines in your `.emacs` file
 (add-to-list 'auto-mode-alist '("\\.md\\'" . markdown-mode))
 ```
 
-
 More details at: <http://jblevins.org/projects/markdown-mode/>
 
+Emacs templates
+===============
