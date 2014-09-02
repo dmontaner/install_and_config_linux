@@ -25,6 +25,13 @@ The '$JAVA_HOME' variable is used by some applications, R for instance.
 
 
 Configure Browsers
-==================
+------------------
 
-For M
+For Firefox and Chrome:
+
+    cd ~/.mozilla
+    mkdir plugins
+    cd plugins
+    ln -s /opt/java/jre/lib/amd64/libnpjp2.so
+
+__Restart__ your browser and test it here: <http://www.java.com/en/download/installed.jsp>
