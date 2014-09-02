@@ -9,7 +9,7 @@ If you need to use the [rJava](http://cran.es.r-project.org/web/packages/rJava/i
     R CMD javareconf
 
 _Note_: ´sudo su -´will take you to the superuser. Otherwise java is not available as root.
-See also how to configure java at [java.md]
+See also how to __configure java__ at [java.md](java.md)
 
 
 
