@@ -4,7 +4,7 @@ Pandoc
 and `pandoc-citeproc` which includes citation processing features.
 
 
-Form repos
+From repos
 ----------
 
     sudo apt-get install pandoc pandoc-citeproc pandoc-data
