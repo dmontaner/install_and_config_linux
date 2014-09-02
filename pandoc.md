@@ -24,6 +24,9 @@ pandoc and pandoc-citeproc should be then installed in your home directory ´.ca
 
 Add it to your path using your `.profile` file for instance:
 
-    PATH=$PATH:/home/dmontaner/.cabal/bin
+    export PATH=/home/dmontaner/.cabal/bin:$PATH
+
+
+
 
 See more details at: <http://johnmacfarlane.net/pandoc/installing.html>
