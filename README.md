@@ -30,3 +30,11 @@ Once ubuntu is installed you may want to run:
 
     sudo apt-get update
     sudo apt-get upgrade
+
+
+Nice external references
+------------------------
+
+- <https://sites.google.com/site/installationubuntu>
+
+
