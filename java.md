@@ -36,7 +36,8 @@ For Firefox:
 
 __Restart__ your browser and test it here: <http://www.java.com/en/download/installed.jsp>
 
+--------------------
 
-Apparently Chrome does not support java ???
+Apparently __Chrome__ does not support java ???
 
 See <http://askubuntu.com/questions/470485/java-plugin-issue-on-chrome-browser>
