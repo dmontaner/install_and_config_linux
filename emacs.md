@@ -23,5 +23,18 @@ and include this lines in your `.emacs` file
 
 More details at: <http://jblevins.org/projects/markdown-mode/>
 
+
+Remove horrible backups
+=======================
+
+   mkdir ~/.emacs.d/backups
+
+and include this line in your ´.emacs´ file.
+
+    (setq backup-directory-alist '(("." . "~/.emacs.d/backups/"))) ;backupfiles will be saved in the directory 
+   
+This will redirect all backups to the created folder
+
+
 Emacs templates
 ===============
