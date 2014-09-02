@@ -27,7 +27,7 @@ The '$JAVA_HOME' variable is used by some applications, R for instance.
 Configure Browsers
 ------------------
 
-For Firefox and Chrome:
+For Firefox:
 
     cd ~/.mozilla
     mkdir plugins
@@ -35,3 +35,8 @@ For Firefox and Chrome:
     ln -s /opt/java/jre/lib/amd64/libnpjp2.so
 
 __Restart__ your browser and test it here: <http://www.java.com/en/download/installed.jsp>
+
+
+Apparently Chrome does not support java ???
+
+See <http://askubuntu.com/questions/470485/java-plugin-issue-on-chrome-browser>
