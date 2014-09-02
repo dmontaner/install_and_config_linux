@@ -27,7 +27,7 @@ More details at: <http://jblevins.org/projects/markdown-mode/>
 Remove horrible backups
 =======================
 
-   mkdir ~/.emacs.d/backups
+    mkdir ~/.emacs.d/backups
 
 and include this line in your ´.emacs´ file.
 
