@@ -22,3 +22,9 @@ Add the /opt/java folder to your path. Use the `/etc/profile` file to do this
 Thus when you upgrade your java version you just need to rewrite the symbolic link 
 
 The '$JAVA_HOME' variable is used by some applications, R for instance.
+
+
+Configure Browsers
+==================
+
+For M
