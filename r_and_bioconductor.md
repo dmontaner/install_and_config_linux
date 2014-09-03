@@ -48,9 +48,6 @@ _I am not sure the "culr" is needed_ !!!
 
 
 
-http://cran.es.r-project.org/
-
-
 Update pacages
 --------------
 
