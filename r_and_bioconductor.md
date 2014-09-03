@@ -1,8 +1,14 @@
+You can install R form the standard repositories in ubuntu ...
+
+    sudo apt-get install r-base-core
+
+... but this will probably not give you the latest version. It may be better to
+
+
 Install R From r-cran repositories
 ====================================
 
-See more details here: 
-<http://cran.es.r-project.org/bin/linux/ubuntu>
+See more details at <http://cran.es.r-project.org/bin/linux/ubuntu>
 
 
 Include this line in your `/etc/apt/sources.list` file[^foot1]
@@ -16,17 +22,8 @@ and then run:
     sudo apt-get update
     sudo apt-get install r-base
 
-    sudo apt-get install r-base-dev  r-cran-boot r-cran-class r-cran-cluster r-cran-codetools r-cran-foreign r-cran-kernsmooth r-cran-lattice r-cran-mass r-cran-matrix r-cran-mgcv r-cran-nlme r-cran-nnet r-cran-rpart r-cran-spatial r-cran-survival 
-    
+    sudo apt-get install r-base-dev r-cran-boot r-cran-class r-cran-cluster r-cran-codetools r-cran-foreign r-cran-kernsmooth r-cran-lattice r-cran-mass r-cran-matrix r-cran-mgcv r-cran-nlme r-cran-nnet r-cran-rpart r-cran-spatial r-cran-survival 
 
-
-
-Install R From standard repositories
-====================================
-
-(this will probably not give you the latest version ... se [below]())
-
-    sudo apt-get install r-base-core
 
 Java
 ----
