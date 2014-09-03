@@ -63,6 +63,38 @@ and then:
 
 
 Emacs
-=====
+-----
 
     sudo apt-get install ess
+
+----------------------------------------------------------------------------------------------------------
+
+
+Bioconductor
+============
+
+
+Load R as root:
+
+    sudo R
+
+and then:
+
+    source("http://bioconductor.org/biocLite.R")
+    biocLite()
+
+see detalis at <http://www.bioconductor.org/install>
+
+
+The Bioconductor version will depend on your R version.  
+You can find your Bioconductor version doing: 
+
+    R
+    BiocInstaller::biocVersion ()
+
+
+
+but this will probably not give you the latest version
+
+
+
