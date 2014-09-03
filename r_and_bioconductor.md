@@ -20,9 +20,9 @@ Extra
 
 If you need to install the [RCurl](http://cran.es.r-project.org/web/packages/RCurl/index.html) library then do
 
-    sudo apt-get install libcurl
+    sudo apt-get install curl libcurl4-gnutls-dev
 
-
+_I am not sure the __culr__ is needed_ !!!
 
 
 
