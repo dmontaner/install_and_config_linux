@@ -5,7 +5,9 @@ See more details here:
 <http://cran.es.r-project.org/bin/linux/ubuntu>
 
 
-Include this line in your `/etc/apt/sources.list` file^[this will add a new repository to your list]:
+Include this line in your `/etc/apt/sources.list` file[^1]
+
+[^1]: this will add a new repository to your list
 
     deb http://cran.es.r-project.org/bin/linux/ubuntu trusty/
 
