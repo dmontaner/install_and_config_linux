@@ -22,7 +22,7 @@ If you need to install the [RCurl](http://cran.es.r-project.org/web/packages/RCu
 
     sudo apt-get install curl libcurl4-gnutls-dev
 
-_I am not sure the __culr__ is needed_ !!!
+_I am not sure the "culr" is needed_ !!!
 
 
 
