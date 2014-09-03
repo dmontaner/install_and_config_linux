@@ -97,4 +97,8 @@ You can find your Bioconductor version doing:
 but this will probably not give you the latest version
 
 
+Bioconductor development version
+--------------------------------
+
+See here: <http://www.bioconductor.org/developers/how-to/useDevel/>
 
