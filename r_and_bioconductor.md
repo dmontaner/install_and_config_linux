@@ -1,5 +1,28 @@
-Install R From Repositories
-===========================
+Install R From r-cran repositories
+====================================
+
+See more details here: 
+<http://cran.es.r-project.org/bin/linux/ubuntu>
+
+
+Include this line in your `/etc/apt/sources.list` file^[this will add a new repository to your list]:
+
+    deb http://cran.es.r-project.org/bin/linux/ubuntu trusty/
+
+and then run: 
+
+    sudo apt-get update
+    sudo apt-get install r-base
+
+
+
+
+
+
+Install R From standard repositories
+====================================
+
+(this will probably not give you the latest version ... se [below]())
 
     sudo apt-get install r-base-core
 
@@ -24,6 +47,9 @@ If you need to install the [RCurl](http://cran.es.r-project.org/web/packages/RCu
 
 _I am not sure the "culr" is needed_ !!!
 
+
+
+http://cran.es.r-project.org/
 
 
 
