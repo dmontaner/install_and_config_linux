@@ -5,9 +5,9 @@ See more details here:
 <http://cran.es.r-project.org/bin/linux/ubuntu>
 
 
-Include this line in your `/etc/apt/sources.list` file[^1]
+Include this line in your `/etc/apt/sources.list` file[^foot1]
 
-[^1]: this will add a new repository to your list
+[^foot1]: this will add a new repository to your list
 
     deb http://cran.es.r-project.org/bin/linux/ubuntu trusty/
 
@@ -16,8 +16,8 @@ and then run:
     sudo apt-get update
     sudo apt-get install r-base
 
-
-
+    sudo apt-get install r-base-dev  r-cran-boot r-cran-class r-cran-cluster r-cran-codetools r-cran-foreign r-cran-kernsmooth r-cran-lattice r-cran-mass r-cran-matrix r-cran-mgcv r-cran-nlme r-cran-nnet r-cran-rpart r-cran-spatial r-cran-survival 
+    
 
 
 
