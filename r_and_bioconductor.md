@@ -51,6 +51,16 @@ _I am not sure the "culr" is needed_ !!!
 http://cran.es.r-project.org/
 
 
+Update pacages
+--------------
+
+Load R as root:
+
+    sudo R
+
+and then:
+
+    update.packages ()
 
 
 
