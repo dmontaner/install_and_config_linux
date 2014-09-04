@@ -20,3 +20,5 @@ __Some shorcuts:__
 - Ctrl-Shift-T: open a new tab
 - Ctrl-Pageup: Move to next tab
 - Ctrl-Pagedown: Move to previous tab
+- Ctrl-D: close tab
+
