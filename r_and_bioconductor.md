@@ -19,6 +19,7 @@ Include this line in your `/etc/apt/sources.list` file[^foot1]
 
 and then run: 
 
+    sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys E084DAB9    # adds the key
     sudo apt-get update
     sudo apt-get install r-base
 
