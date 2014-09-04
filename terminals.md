@@ -26,3 +26,7 @@ __Some shorcuts:__
 - Ctrl-Pagedown: Move to previous tab
 - Ctrl-D: close tab
 
+- Ctrl-Plus (+): Increase  font  size. Note: this may require you to press shift, depending on your keyboard
+- Ctrl-Minus (-): Decrease font size. Note: this may require you to  press  shift, depending   on your  keyboard
+- Ctrl+Zero (0): Restore font size to original setting.
+
