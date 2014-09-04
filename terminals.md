@@ -16,3 +16,7 @@ __Some shorcuts:__
 - Ctrl-Shift-W: will close the current window
 
 - Ctrl-Shift-arrow-keys will resize the sizes of the windows
+
+- Ctrl-Shift-T: open a new tab
+- Ctrl-Pageup: Move to next tab
+- Ctrl-Pagedown: Move to previous tab
