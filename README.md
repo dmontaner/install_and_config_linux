@@ -38,3 +38,12 @@ Nice external references
 - <https://sites.google.com/site/installationubuntu>
 
 
+
+
+Some __apt__ nice things
+========================
+
+To get the version of the application in repositories you can use:
+
+    apt-cache madison APPLICATION
+
