@@ -37,3 +37,12 @@ here I do not do the __wl__ indicated in the link above.
     echo "brcmsmac" | sudo tee -a /etc/modules
     
 I do __not do__ the changes indicated in the blacklist file `/etc/modprobe.d/blacklist.conf`
+
+
+Updates
+=======
+
+When some updates are installed in the computer (usually some parts of the base linux) the modprobe gets messed up. Then, after upgrades I run: 
+
+    sudo modprobe -r b43 brcmsmac
+    sudo modprobe brcmsmac
