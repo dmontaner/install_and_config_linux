@@ -2,7 +2,7 @@
 <mime-info xmlns="http://www.freedesktop.org/standards/shared-mime-info">
     <mime-type type="text/R">
         <comment>R script</comment>
-        <icon name="application-r"/>
+        <icon name="text-R"/>
         <glob-deleteall/>
         <glob pattern="*.r"/>
         <glob pattern="*.R"/>

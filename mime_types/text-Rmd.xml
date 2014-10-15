@@ -2,7 +2,7 @@
 <mime-info xmlns="http://www.freedesktop.org/standards/shared-mime-info">
     <mime-type type="text/Rmd">
         <comment>R markdown script</comment>
-        <icon name="application-r"/>
+        <icon name="text-R"/>
         <glob-deleteall/>
         <glob pattern="*.Rmd"/>
     </mime-type>
