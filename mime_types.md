@@ -1,11 +1,14 @@
 Add New Mime Types
 ==================
 
-For R scripts:
+For __R__ scripts:
 
     mkdir -p ~/.local/share/mime/packages
     cd ~/.local/share/mime/packages
     touch text-R.xml
+
+create the [text-R.xml](mime_types/text-R.xml)
+
 
 then run: 
 
