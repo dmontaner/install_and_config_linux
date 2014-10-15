@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mime-info xmlns="http://www.freedesktop.org/standards/shared-mime-info">
+    <mime-type type="text/Rmd">
+        <comment>R markdown script</comment>
+        <icon name="application-r"/>
+        <glob-deleteall/>
+        <glob pattern="*.Rmd"/>
+    </mime-type>
+</mime-info>
