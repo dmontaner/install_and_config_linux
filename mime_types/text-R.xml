@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mime-info xmlns="http://www.freedesktop.org/standards/shared-mime-info">
+    <mime-type type="text/R">
+        <comment>R script</comment>
+        <icon name="application-r"/>
+        <glob-deleteall/>
+        <glob pattern="*.r"/>
+        <glob pattern="*.R"/>
+    </mime-type>
+</mime-info>
