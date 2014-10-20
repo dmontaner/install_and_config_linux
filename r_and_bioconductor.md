@@ -38,7 +38,7 @@ __Note__: ´sudo su -´will take you to the superuser. Otherwise java is not ava
 See also how to __configure java__ at [java.md](java.md)
 
 
-Extra
+Extra 
 ------
 
 If you need to install the [RCurl](http://cran.es.r-project.org/web/packages/RCurl/index.html) library then do
@@ -46,6 +46,18 @@ If you need to install the [RCurl](http://cran.es.r-project.org/web/packages/RCu
     sudo apt-get install curl libcurl4-gnutls-dev
 
 _I am not sure the "culr" is needed_ !!!
+
+
+If you need to install the [XML](http://cran.r-project.org/web/packages/XML/index.html) library do first:
+
+    sudo apt-get install libxml2-dev
+
+This will install the `xml2-config` package.
+
+
+
+
+
 
 
 
