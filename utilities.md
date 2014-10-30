@@ -12,5 +12,8 @@ Not sure about this:
 
     sudo apt get install preload
 
+----
+
+     sudo apt-get install k4dirstat 
 
 
