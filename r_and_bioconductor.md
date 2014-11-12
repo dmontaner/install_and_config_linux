@@ -55,6 +55,12 @@ If you need to install the [XML](http://cran.r-project.org/web/packages/XML/inde
 This will install the `xml2-config` package.
 
 
+The library [rgl](http://cran.r-project.org/web/packages/rgl/index.html) has some dependencies of the system. 
+It is better installed doing: 
+
+    sudo apt-get install r-cran-rgl
+
+
 
 
 
