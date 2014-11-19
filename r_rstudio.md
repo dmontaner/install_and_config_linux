@@ -4,5 +4,6 @@ RStudio
 Download from 
 <http://www.rstudio.com/products/rstudio/download/>
 
-sudo dpkg -i downloaded_package.deb
-sudo apt-get -f install
+And run: 
+
+    sudo dpkg -i rstudio-*****-amd64.deb 
