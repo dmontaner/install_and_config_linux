@@ -1,4 +1,4 @@
-You can install R form the standard repositories in ubuntu ...
+You can install R form the standard repositories in Ubuntu ...
 
     sudo apt-get install r-base-core
 
@@ -67,7 +67,7 @@ It is better installed doing:
 
 
 
-Update pacages
+Update packages
 --------------
 
 Load R as root:
@@ -102,7 +102,7 @@ and then:
     source("http://bioconductor.org/biocLite.R")
     biocLite()
 
-see detalis at <http://www.bioconductor.org/install>
+see details at <http://www.bioconductor.org/install>
 
 
 The Bioconductor version will depend on your R version.  

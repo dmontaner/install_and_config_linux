@@ -6,7 +6,7 @@ and follow the __JDK__ download link (not the JRE ones)
 
 Accept the _License Agreement_ and download the file: jdk-****-linux-x64.tar.gz
 
-Uncompress in the folder '/opt' creating the sub-folder 'jdk-****'
+Decompress in the folder '/opt' creating the sub-folder 'jdk-****'
 
     sudo tar -xvzf jdk-8u11-linux-x64.tar.gz 
 

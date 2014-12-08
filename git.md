@@ -11,7 +11,7 @@ To set your
 
 - email
 - user
-- text editor (used when writing commit mesages)
+- text editor (used when writing commit messages)
 
 use the commands: 
 
@@ -20,4 +20,4 @@ use the commands:
     git config --global core.editor emacs
 
 
-This will create the file `.gitconfig` which may be edditted to change global settings.
+This will create the file `.gitconfig` which may be edited to change global settings.

@@ -7,7 +7,7 @@
 ## - /usr/share/nemo/actions/
 ## - $HOME/.local/share/nemo/actions/
 
-## Exec: the executable file. May be anyware. Must be EXECUTABLE.
+## Exec: the executable file. May be anywhere. Must be EXECUTABLE.
 
 ## Icon-Name: must be the name of the file containing the image WITHOUT extension.
 ##            Must be located some of the icon folders of the system.

@@ -1,4 +1,4 @@
-Some suefull tools to handle PDFs
+Some useful tools to handle PDFs
 =================================
 
     sudo apt-get install pdftk pdfposter 
@@ -32,6 +32,6 @@ Reorder:
     pdftk in_file.pdf cat 1-14 19-22 15-17 output out_file.pdf
 
 
-Extract metainformation:
+Extract meta-information:
 
     pdftk doc.pdf dump_data

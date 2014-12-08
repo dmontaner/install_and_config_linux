@@ -3,7 +3,7 @@ Nautilus
 
 Is the __default__ file manager in in Ubuntu 14.04
 
-You can instqall it:
+You can install it:
 
     sudo apt-get install nautilus
 
@@ -27,6 +27,6 @@ See:
 Nemo
 ===================================================
 
-Nemo suports the __split screen__ option (F3).
+Nemo supports the __split screen__ option (F3).
 
     sudo apt-get install nemo

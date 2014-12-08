@@ -11,7 +11,7 @@ Tested in __Ubuntu 14.04__
 Create a pen drive for the installation
 ---------------------------------------
 
-Download the appropriated __iso__ file from the ?ubuntu web page and run: 
+Download the appropriated __iso__ file from the ?Ubuntu web page and run: 
 
     usb-creator-gtk
 

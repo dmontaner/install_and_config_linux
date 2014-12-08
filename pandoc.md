@@ -38,6 +38,6 @@ Sometimes you may need to remove old libraries
     rm -rf ~/.ghc
     rm -r .cabal/
 
-Then you can reinstall pandoc
+Then you can re-install pandoc
 
 
