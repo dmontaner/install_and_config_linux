@@ -121,3 +121,11 @@ Bioconductor development version
 
 See here: <http://www.bioconductor.org/developers/how-to/useDevel/>
 
+
+
+Install Rmpi
+============
+
+sudo apt-get install r-cran-rmpi 
+sudo apt-get build-dep r-cran-rmpi
+
