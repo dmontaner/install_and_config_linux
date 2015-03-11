@@ -9,3 +9,6 @@ Install jekyll
 
     sudo gem jekyll 
 
+----
+
+See <http://jekyllrb.com/docs/quickstart/> for usage
