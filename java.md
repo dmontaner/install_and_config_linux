@@ -10,7 +10,7 @@ Decompress in the folder `/opt` creating the sub-folder 'jdk-****'
 
     sudo tar -xvzf jdk-8u11-linux-x64.tar.gz 
 
-Create the __symbolic link__^1: 
+Create the __symbolic link__^[1]: 
 
     sudo ln -s /opt/jdk-**** /opt/java
 
