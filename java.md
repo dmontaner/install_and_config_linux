@@ -41,3 +41,24 @@ __Restart__ your browser and test it here: <http://www.java.com/en/download/inst
 Apparently __Chrome__ does not support java ???
 
 See <http://askubuntu.com/questions/470485/java-plugin-issue-on-chrome-browser>
+
+
+Install certificates in Java
+============================
+
+Some aplications may need a security __certificate__ to be installed in Java (probably also in your browser)
+
+To install such certificates run (acordng to the above installation): 
+
+    /opt/java/bin/jcontrol
+    
+A window will pop up. Then go to: 
+
+    Security > Manage certificates > Import
+
+and import your certificate into Java.
+
+
+
+
+
