@@ -46,3 +46,8 @@ When some updates are installed in the computer (usually some parts of the base 
 
     sudo modprobe -r b43 brcmsmac
     sudo modprobe brcmsmac
+
+----
+The command above did not work anymore... apparently this one does:
+
+    sudo apt-get install bcmwl-kernel-source
