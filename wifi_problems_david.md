@@ -48,6 +48,12 @@ When some updates are installed in the computer (usually some parts of the base 
     sudo modprobe brcmsmac
 
 ----
+
 The command above did not work anymore... apparently this one does:
 
     sudo apt-get install bcmwl-kernel-source
+
+----
+
+Some generic drivers seem to be here (I have not tried them)
+<http://www.broadcom.com/support/802.11/linux_sta.php>
