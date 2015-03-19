@@ -52,7 +52,7 @@ When some updates are installed in the computer (usually some parts of the base 
 The command above did not work anymore... apparently this one does:
 
     sudo apt-get install bcmwl-kernel-source
-
+    sudo apt-get install broadcom-sta-common broadcom-sta-source
 ----
 
 Some generic drivers seem to be here (I have not tried them)
