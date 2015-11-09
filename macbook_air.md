@@ -9,7 +9,7 @@ Using __MacBookAir7,2__
 
 - Create   I used `usb-creator-gtk`
 - Install the ISO as usual. __ALT key__ needs to be pressed when starting the computer to be able to boot form usb.  
-  The __wifi does not work for me_. 
+  The __wifi does not work for me__. 
 
 
 Fixing the wifi
