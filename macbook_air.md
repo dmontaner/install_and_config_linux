@@ -8,7 +8,12 @@ Using __MacBookAir7,2__
 (the mac version `ubuntu-14.04.3-desktop-amd64+mac.iso` does not work for me)
 
 - Create   I used `usb-creator-gtk`
-- Install the ISO as usual. __ALT key__ needs to be pressed when starting the computer to be able to boot form usb.  
+- Install the ISO as usual. __ALT key__ needs to be pressed when starting the computer to be able to boot form usb.
+- I had to create this __partitions__: 
+    + EFI Boot partition 1GB
+    + Swap 8GB (size of the ram)
+    + 
+    + <https://help.ubuntu.com/community/DiskSpace>
   The __wifi does not work for me__. 
 
 
