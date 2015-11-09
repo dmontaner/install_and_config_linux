@@ -12,7 +12,8 @@ Install Ubuntu 14.04 in MacBook Air
 http://es.archive.ubuntu.com/ubuntu/pool/restricted/b/bcmwl/bcmwl-kernel-source_6.30.223.141+bdcom-0ubuntu2_amd64.deb
 (this I discovered in this nice video <https://www.youtube.com/watch?v=vKrFiJH0UHc>)
 
-- Install the ISO as usual. The whifi will does not work for me.
+- Install the ISO as usual. ALT key needs to be pressed when starting the computer to be able to boot form usb.  
+  The whifi will does not work for me.
 
 - Copy the files `dkms_2.2.0.3-1.1ubuntu5_all.deb` and `bcmwl-kernel-source_6.30.223.141+bdcom-0ubuntu2_amd64.deb` using a usb stik and install them (the order matters): 
     dpkg -i dkms_2.2.0.3-1.1ubuntu5_all.deb
