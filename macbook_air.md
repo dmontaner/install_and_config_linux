@@ -11,9 +11,11 @@ Using __MacBookAir7,2__
 - Install the ISO as usual. __ALT key__ needs to be pressed when starting the computer to be able to boot form usb.
 - I had to create this __partitions__: 
     + EFI Boot partition 1GB
-    + Swap 8GB (size of the ram)
-    + 
-    + <https://help.ubuntu.com/community/DiskSpace>
+    + Swap 8GB (size of the ram; see: <https://help.ubuntu.com/community/DiskSpace>)
+    + EXT4 (rest of the disk). Set the __mount point__ to `/`
+- and set the __Device for boot__ to the __EFI__ partition.
+
+
   The __wifi does not work for me__. 
 
 
