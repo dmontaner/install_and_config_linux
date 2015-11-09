@@ -38,3 +38,11 @@ This will redirect all backups to the created folder
 
 Emacs templates
 ===============
+
+
+Python mode
+===============
+
+    sudo apt-get install python-mode
+
+then a py-shell command is available in Emacs 
