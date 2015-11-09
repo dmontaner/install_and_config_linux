@@ -22,5 +22,6 @@ I discovered this in this nice video <https://www.youtube.com/watch?v=vKrFiJH0UH
 http://es.archive.ubuntu.com/ubuntu/pool/restricted/b/bcmwl/bcmwl-kernel-source_6.30.223.141+bdcom-0ubuntu2_amd64.deb
 
 - Copy the files `dkms_2.2.0.3-1.1ubuntu5_all.deb` and `bcmwl-kernel-source_6.30.223.141+bdcom-0ubuntu2_amd64.deb` using a usb stik and install them (the order matters): 
+-
     dpkg -i dkms_2.2.0.3-1.1ubuntu5_all.deb
     dpkg -i bcmwl-kernel-source_6.30.223.141+bdcom-0ubuntu2_amd64.deb`
