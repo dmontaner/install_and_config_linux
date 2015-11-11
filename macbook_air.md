@@ -36,6 +36,10 @@ This I got it from this very nice link <http://askubuntu.com/questions/563401/ef
 Fixing the wifi
 ---------------
 
+The wifi seems to work for me. 
+
+I found this nice video that may be usefull in some case <https://www.youtube.com/watch?v=vKrFiJH0UHc>
+
   The __wifi does not work for me__. 
 
 I discovered this in this nice video <https://www.youtube.com/watch?v=vKrFiJH0UHc>
