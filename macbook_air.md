@@ -19,16 +19,22 @@ Using __MacBookAir7,2__
 
 When I reboot the laptop the screen is black. Few secconds later a folder icon is blinking in the screen. It does not boot.
 
+Fixing the booting process
+--------------------------
 
-http://askubuntu.com/questions/563401/efi-boot-ubuntu-14-04-on-a-mac-without-refind
+This I got it from this very nice link <http://askubuntu.com/questions/563401/efi-boot-ubuntu-14-04-on-a-mac-without-refind>
 
 
 
-  The __wifi does not work for me__. 
+
+
+
 
 
 Fixing the wifi
 ---------------
+
+  The __wifi does not work for me__. 
 
 I discovered this in this nice video <https://www.youtube.com/watch?v=vKrFiJH0UHc>
 
