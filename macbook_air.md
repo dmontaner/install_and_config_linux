@@ -5,7 +5,7 @@ Using __MacBookAir7,2__
 
 - Download the statndard Ubuntu Desktop distribution form <http://www.ubuntu.com/download/desktop>
 - I used: `ubuntu-14.04.3-desktop-amd64.iso`  
-(the mac version `ubuntu-14.04.3-desktop-amd64+mac.iso` does not work for me... aparently:
+(the mac version `ubuntu-14.04.3-desktop-amd64+mac.iso` does not work for me... aparently:  
 [NOTE - Do NOT use the +mac version since it does not support EFI boot](http://askubuntu.com/questions/563401/efi-boot-ubuntu-14-04-on-a-mac-without-refind))
 
 - Create a Ubuntu install USB. I used `usb-creator-gtk`
