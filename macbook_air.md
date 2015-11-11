@@ -10,10 +10,15 @@ Using __MacBookAir7,2__
 - Create a Ubuntu install USB. I used `usb-creator-gtk`
 - Install the ISO as usual. __ALT key__ needs to be pressed when starting the computer to be able to boot form usb.
 - I had to create this __partitions__: 
-    + EFI Boot partition 1GB
-    + Swap 8GB (size of the ram; see: <https://help.ubuntu.com/community/DiskSpace>)
+    + EFI boot partition 100MB (primary; Beginning of this space)
+    + Swap 8000MB (size of the ram; see: <https://help.ubuntu.com/community/DiskSpace>) (primary; Beginning of this space)
     + EXT4 (rest of the disk). Set the __mount point__ to `/`
 - and set the __Device for boot__ to the __EFI__ partition.
+
+
+When I reboot the laptop the screen is black. Few secconds later a folder icon is blinking in the screen. It does not find the 
+http://askubuntu.com/questions/563401/efi-boot-ubuntu-14-04-on-a-mac-without-refind
+
 
 
   The __wifi does not work for me__. 
