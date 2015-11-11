@@ -9,7 +9,7 @@ Using __MacBookAir7,2__
 [NOTE - Do NOT use the +mac version since it does not support EFI boot](http://askubuntu.com/questions/563401/efi-boot-ubuntu-14-04-on-a-mac-without-refind))
 
 - Create a Ubuntu install USB. I used `usb-creator-gtk`
-- Install the ISO as usual. __ALT key__ needs to be pressed when starting the computer to be able to boot form usb.
+- Install the ISO as usual. __ALT key__ (_option_ key in mac) needs to be pressed when starting the computer to be able to boot form usb.
 - I had to create this __partitions__: 
     + EFI boot partition 100MB (primary; Beginning of this space)
     + Swap 8000MB (size of the ram; see: <https://help.ubuntu.com/community/DiskSpace>) (primary; Beginning of this space)
