@@ -16,7 +16,9 @@ Using __MacBookAir7,2__
 - and set the __Device for boot__ to the __EFI__ partition.
 
 
-When I reboot the laptop the screen is black. Few secconds later a folder icon is blinking in the screen. It does not find the 
+When I reboot the laptop the screen is black. Few secconds later a folder icon is blinking in the screen. It does not boot.
+
+
 http://askubuntu.com/questions/563401/efi-boot-ubuntu-14-04-on-a-mac-without-refind
 
 
