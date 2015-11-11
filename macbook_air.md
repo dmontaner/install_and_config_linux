@@ -12,7 +12,7 @@ Using __MacBookAir7,2__
 - I had to create this __partitions__: 
     + EFI boot partition 100MB (primary; Beginning of this space)
     + Swap 8000MB (size of the ram; see: <https://help.ubuntu.com/community/DiskSpace>) (primary; Beginning of this space)
-    + EXT4 (rest of the disk). Set the __mount point__ to `/`
+    + EXT4 (rest of the disk) (primary; Beginning of this space). Set the __MOUNT POINT__ to `/`
 - and set the __Device for boot__ to the __EFI__ partition.
 
 
