@@ -50,6 +50,28 @@ Then reboot was fine.
 
 
 
+Problems
+--------
+
+When installing programs with the standard `sudo apt-get install` I am getting this error: 
+
+```
+grub-install: error: cannot open `/boot/efi/EFI/ubuntu/System/Library/CoreServices/boot.efi': Read-only file system.
+dpkg: error processing package shim-signed (--configure):
+ subprocess installed post-installation script returned error exit status 1
+```
+
+and
+
+```
+Errors were encountered while processing:
+ grub-efi-amd64
+ grub-efi-amd64-signed
+ shim-signed
+E: Sub-process /usr/bin/dpkg returned an error code (1)
+```
+But __aparently the software gets installed and runs ok__  ????
+
 
 
 Fixing the wifi
