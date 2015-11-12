@@ -29,7 +29,7 @@ This I got it from this very nice link <http://askubuntu.com/questions/563401/ef
     + in __step 4__:
         * the partition we unmounted has to be mounted again `sudo mount /dev/sda1`
         * the command  
-          `sudo grub-install --target x86_64-efi --boot-directory=/boot --efi-directory=/boot/efi`
+          `sudo grub-install --target x86_64-efi --boot-directory=/boot --efi-directory=/boot/efi`  
           gave me the error:  
           `Installing for x86_64-efi platform.`  
           `grub-install: error: /boot/efi doesn't look like an EFI partition.`
