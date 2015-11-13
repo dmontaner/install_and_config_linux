@@ -1,7 +1,39 @@
-Install: 
+You can do:
 
-    sudo apt-get install 
+    sudo apt-get install emacs
 
+this will not install the latest version (se below for that) 
+but is interesting to do it to get all __dependencies__ installed.
+
+To get the latest version see here: <https://www.gnu.org/software/emacs/manual/html_node/efaq/Installing-Emacs.html>
+
+Some dependencies I detected: 
+
+```
+sudo apt-get install libx11-*
+sudo apt-get install libxaw7*
+sudo apt-get install libtiff5*
+sudo apt-get install giflib-tools libgif-dev libgif4
+```
+
+Then 
+
+```
+wget ftp://ftp.gnu.org/pub/gnu/emacs/emacs-24.5.tar.gz
+tar -zxvf emacs-24.5.tar.gz
+cd emacs-24.5/
+
+./configure         # configure Emacs for your particular system
+make                # use Makefile to build components, then Emacs
+
+If the make completes successfully, the odds are fairly good that the build has gone well. (See Problems building Emacs, if you weren’t successful.)
+
+By default, Emacs is installed in /usr/local. To actually install files, become the superuser and type
+make install
+Note that ‘make install’ will overwrite /usr/local/bin/emacs and any Emacs Info files that might be in /usr/local/share/info/.
+
+
+```
 
 Emacs Markdown Mode
 ===================
