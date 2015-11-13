@@ -5,7 +5,7 @@ Some utilities and interesting applications
 dmontaner
 ---------
 
-    sudo apt-get install htop colordiff tree
+    sudo apt-get install htop colordiff tree gparted k4dirstat 
 
 
 Not sure about this:
@@ -13,7 +13,5 @@ Not sure about this:
     sudo apt get install preload
 
 ----
-
-     sudo apt-get install k4dirstat 
 
 
