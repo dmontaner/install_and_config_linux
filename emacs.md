@@ -52,6 +52,8 @@ files are installed into
 directory. Particularly into 
 `/usr/share/emacs/etc/ess`
 
+See detalis <http://ess.r-project.org/Manual/ess.html#Installation>
+
 
 
 
