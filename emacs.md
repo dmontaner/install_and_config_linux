@@ -26,13 +26,7 @@ cd emacs-24.5/
 ./configure         # configure Emacs for your particular system
 make                # use Makefile to build components, then Emacs
 
-If the make completes successfully, the odds are fairly good that the build has gone well. (See Problems building Emacs, if you weren’t successful.)
-
-By default, Emacs is installed in /usr/local. To actually install files, become the superuser and type
-make install
-Note that ‘make install’ will overwrite /usr/local/bin/emacs and any Emacs Info files that might be in /usr/local/share/info/.
-
-
+sudo make insall
 ```
 
 Emacs Markdown Mode
