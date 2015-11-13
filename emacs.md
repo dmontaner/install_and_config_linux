@@ -29,6 +29,32 @@ make                # use Makefile to build components, then Emacs
 sudo make insall
 ```
 
+
+ESS
+================================================================================
+
+You can do: 
+
+   sudo apt-get install ess
+
+For the __latest__ version ee <http://ess.r-project.org/index.php?Section=download>
+
+```
+wget http://ess.r-project.org/downloads/ess/ess-15.09-1.tgz 
+make
+
+sudo make install    /usr/share/emacs 
+
+```
+
+files are installed into  
+`/usr/share/emacs`  
+directory. Particularly into 
+`/usr/share/emacs/etc/ess`
+
+
+
+
 Emacs Markdown Mode
 ===================
 
