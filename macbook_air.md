@@ -72,6 +72,17 @@ E: Sub-process /usr/bin/dpkg returned an error code (1)
 ```
 But __aparently the software gets installed and runs ok__  ????
 
+Apparently this is a known bug. See:   
+<https://bugs.launchpad.net/ubuntu/+source/grub2/+bug/1282375>
+
+I followed this post to solve it: 
+<https://bugs.launchpad.net/ubuntu/+source/grub2/+bug/1282375/comments/4>
+
+- Backup folder /boot/efi
+- Reformat the efi partition to FAT32 (used gparted for this form my standard ubuntu installation, not needed live usb or anythung simmilar)  
+  This erases any file in /boot/efi
+- Copy the back up files into /boot/efi
+- `sudo apt-get update` and `sudo apt-get upgrade` did not yield any error again.
 
 
 Fixing the wifi
