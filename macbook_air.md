@@ -91,3 +91,21 @@ Fixing the wifi
 The wifi seems to work for me. 
 
 I found this nice video that may be usefull in some case <https://www.youtube.com/watch?v=vKrFiJH0UHc>
+
+
+
+Keyboard
+========
+
+For a _normal_ (ubuntu style) behaviour of the F keys: 
+
+    sudo echo 2 > /sys/module/hid_apple/parameters/fnmode
+
+   
+File can have three different values:
+
+0. = disabled : Disable the fn key. Pressing <fn+F8> will behave like you only press F8
+1. = f-keys last : Function keys are used as last key. Pressing F8 key will act as a special key. Pressing <fn+F8> will behave like a F8.
+2. = f-keys first : Function keys are used as first key. Pressing F8 key will behave like a F8. Pressing <fn+F8> will act as special key (play/pause).
+
+See <https://help.ubuntu.com/community/TroubleWithAppleKbdOnUbuntu>
