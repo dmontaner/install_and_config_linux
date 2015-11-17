@@ -101,12 +101,12 @@ For a _normal_ (ubuntu style) behaviour of the F keys:
 
 - Just for the current session (it will not persist when rebooting)
 
-    sudo echo 2 > /sys/module/hid_apple/parameters/fnmode
+     sudo echo 2 > /sys/module/hid_apple/parameters/fnmode
 
-- Persistent change: 
+- __Persistent__ change: 
 
-    echo options hid_apple fnmode=2 | sudo tee -a /etc/modprobe.d/hid_apple.conf
-    sudo update-initramfs -u -k all 
+     echo options hid_apple fnmode=2 | sudo tee -a /etc/modprobe.d/hid_apple.conf
+     sudo update-initramfs -u -k all 
 
 See: <https://help.ubuntu.com/community/AppleKeyboard#Ubuntu_9.04_to_12.04_LTS_.28Precise_Pangolin.29>
    
