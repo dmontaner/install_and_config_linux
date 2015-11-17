@@ -97,6 +97,9 @@ I found this nice video that may be usefull in some case <https://www.youtube.co
 Keyboard
 ========
 
+FN and F keys
+-------------
+
 For a _normal_ (ubuntu style) behaviour of the F keys:
 
 - Just for the current session (it will not persist when rebooting)
@@ -117,3 +120,18 @@ Three different values are llowed:
 2. = f-keys first : Function keys are used as first key. Pressing F8 key will behave like a F8. Pressing <fn+F8> will act as special key (play/pause).
 
 See <https://help.ubuntu.com/community/TroubleWithAppleKbdOnUbuntu>
+
+
+Swap cmd and Alt keys
+---------------------
+
+Permanently:
+
+    echo options hid_apple swap_opt_cmd=1 | sudo tee -a /etc/modprobe.d/hid_apple.conf
+    sudo update-initramfs -u -k all
+    
+    sudo reboot
+
+
+Form <https://help.ubuntu.com/community/AppleKeyboard#Mapping_keys_.28Insert.2C_Alt.2C_Cmd.2C_etc..29>
+
