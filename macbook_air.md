@@ -97,12 +97,20 @@ I found this nice video that may be usefull in some case <https://www.youtube.co
 Keyboard
 ========
 
-For a _normal_ (ubuntu style) behaviour of the F keys: 
+For a _normal_ (ubuntu style) behaviour of the F keys:
+
+- Just for the current session (it will not persist when rebooting)
 
     sudo echo 2 > /sys/module/hid_apple/parameters/fnmode
 
+- Persistent change: 
+
+    echo options hid_apple fnmode=2 | sudo tee -a /etc/modprobe.d/hid_apple.conf
+    sudo update-initramfs -u -k all 
+
+See: <https://help.ubuntu.com/community/AppleKeyboard#Ubuntu_9.04_to_12.04_LTS_.28Precise_Pangolin.29>
    
-File can have three different values:
+Three different values are llowed:
 
 0. = disabled : Disable the fn key. Pressing <fn+F8> will behave like you only press F8
 1. = f-keys last : Function keys are used as last key. Pressing F8 key will act as a special key. Pressing <fn+F8> will behave like a F8.
