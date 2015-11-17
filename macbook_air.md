@@ -108,8 +108,10 @@ For a _normal_ (ubuntu style) behaviour of the F keys:
 
 - __Persistent__ change: 
 
-     echo options hid_apple fnmode=2 | sudo tee -a /etc/modprobe.d/hid_apple.conf
-     sudo update-initramfs -u -k all 
+```
+echo options hid_apple fnmode=2 | sudo tee -a /etc/modprobe.d/hid_apple.conf
+sudo update-initramfs -u -k all 
+```
 
 See: <https://help.ubuntu.com/community/AppleKeyboard#Ubuntu_9.04_to_12.04_LTS_.28Precise_Pangolin.29>
    
@@ -127,11 +129,12 @@ Swap cmd and Alt keys
 
 Permanently:
 
-    echo options hid_apple swap_opt_cmd=1 | sudo tee -a /etc/modprobe.d/hid_apple.conf
-    sudo update-initramfs -u -k all
-    
-    sudo reboot
+```
+echo options hid_apple swap_opt_cmd=1 | sudo tee -a /etc/modprobe.d/hid_apple.conf
+sudo update-initramfs -u -k all
 
+sudo reboot
+```
 
 Form <https://help.ubuntu.com/community/AppleKeyboard#Mapping_keys_.28Insert.2C_Alt.2C_Cmd.2C_etc..29>
 
