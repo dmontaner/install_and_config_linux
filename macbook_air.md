@@ -100,6 +100,8 @@ Keyboard
 FN and F keys
 -------------
 
+From: <https://help.ubuntu.com/community/AppleKeyboard#Ubuntu_9.04_to_12.04_LTS_.28Precise_Pangolin.29>
+
 For a _normal_ (ubuntu style) behaviour of the F keys:
 
 - Just for the current session (it will not persist when rebooting)
@@ -113,19 +115,13 @@ echo options hid_apple fnmode=2 | sudo tee -a /etc/modprobe.d/hid_apple.conf
 sudo update-initramfs -u -k all 
 ```
 
-See: <https://help.ubuntu.com/community/AppleKeyboard#Ubuntu_9.04_to_12.04_LTS_.28Precise_Pangolin.29>
-   
-Three different values are llowed:
-
-0. = disabled : Disable the fn key. Pressing <fn+F8> will behave like you only press F8
-1. = f-keys last : Function keys are used as last key. Pressing F8 key will act as a special key. Pressing <fn+F8> will behave like a F8.
-2. = f-keys first : Function keys are used as first key. Pressing F8 key will behave like a F8. Pressing <fn+F8> will act as special key (play/pause).
-
-See <https://help.ubuntu.com/community/TroubleWithAppleKbdOnUbuntu>
+See also <https://help.ubuntu.com/community/TroubleWithAppleKbdOnUbuntu>
 
 
 Swap cmd and Alt keys
 ---------------------
+
+Form <https://help.ubuntu.com/community/AppleKeyboard#Mapping_keys_.28Insert.2C_Alt.2C_Cmd.2C_etc..29>
 
 Permanently:
 
@@ -136,5 +132,38 @@ sudo update-initramfs -u -k all
 sudo reboot
 ```
 
-Form <https://help.ubuntu.com/community/AppleKeyboard#Mapping_keys_.28Insert.2C_Alt.2C_Cmd.2C_etc..29>
+Swap FN and Ctrl keys
+---------------------
 
+Form:
+
+- <https://help.ubuntu.com/community/AppleKeyboard#Mapping_keys_.28Insert.2C_Alt.2C_Cmd.2C_etc..29>
+- <https://github.com/free5lot/hid-apple-patched>
+- <https://wiki.archlinux.org/index.php/Apple_Keyboard#Swap_the_Fn_key_and_Left_Ctrl_key> 
+
+```
+git clone https://github.com/free5lot/hid-apple-patched
+cd  hid-apple-patched/
+```
+
+Edit the __Makefile__: 
+
+change the line 
+
+    #LINUX_HEADER_DIR ?=/usr/src/linux-headers-$(uname -r)
+
+by 
+
+    LINUX_HEADER_DIR=/usr/src/linux-headers-3.19.0-33-generic
+
+(I do not know why the first one is not working. I discovered the `3.19.0-33-generic` bit typing `echo $(uname -r)` in the shell)
+
+
+Then:
+
+    make
+    
+    sudo make install
+    sudo update-initramfs -u -k all
+
+    sudo reboot
