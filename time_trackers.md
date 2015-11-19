@@ -6,5 +6,5 @@ This is the nicest I found... and still not very nice.
 
     sudo apt-get install ktimetracker 
 
-Any other sugestion?
+Any other suggestion?
 
