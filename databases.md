@@ -16,3 +16,14 @@ Then:
 
     apt-get install postgresql-9.4
 
+R libraries
+-----------
+
+Some dependencies
+
+    ￼sudo apt-get install libpq-dev
+
+from the R session (as root): 
+
+    install.packages ('RPostgreSQL')
+
