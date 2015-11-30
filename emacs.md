@@ -78,6 +78,18 @@ and include this lines in your `.emacs` file
 More details at: <http://jblevins.org/projects/markdown-mode/>
 
 
+Fonts
+======================================
+
+https://www.gnu.org/software/emacs/manual/html_node/efaq/How-to-add-fonts.html
+
+http://www.emacswiki.org/emacs/SetFonts
+
+If you are running Linux, you may be able to run `xfontsel` from a shell. This program helps you select a font.
+
+
+
+
 Remove horrible backups
 =======================
 
