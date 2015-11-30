@@ -12,4 +12,7 @@ Add puclic key
     wget https://www.postgresql.org/media/keys/ACCC4CF8.asc 
     sudo apt-key add ACCC4CF8.asc
 
+Then: 
+
+    apt-get install postgresql-9.4
 
