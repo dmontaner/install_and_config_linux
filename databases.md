@@ -14,7 +14,9 @@ Add puclic key
 
 Then: 
 
-    apt-get install postgresql-9.4
+    sudo apt-get install postgresql-9.4
+    sudo apt-get install postgres-xc*
+
 
 R libraries
 -----------
