@@ -137,9 +137,17 @@ Swap FN and Ctrl keys
 
 Form:
 
-- <https://help.ubuntu.com/community/AppleKeyboard#Mapping_keys_.28Insert.2C_Alt.2C_Cmd.2C_etc..29>
 - <https://github.com/free5lot/hid-apple-patched>
+
+See also: 
+
+- <https://help.ubuntu.com/community/AppleKeyboard#Mapping_keys_.28Insert.2C_Alt.2C_Cmd.2C_etc..29>
 - <https://wiki.archlinux.org/index.php/Apple_Keyboard#Swap_the_Fn_key_and_Left_Ctrl_key> 
+
+
+Install _kernel development packages_
+
+     sudo apt-get install linux-libc-dev
 
 ```
 git clone https://github.com/free5lot/hid-apple-patched
