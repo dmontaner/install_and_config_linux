@@ -158,7 +158,7 @@ Edit the __Makefile__:
 
 change the line 
 
-    #LINUX_HEADER_DIR ?=/usr/src/linux-headers-$(uname -r)
+    LINUX_HEADER_DIR ?=/usr/src/linux-headers-$(uname -r)
 
 by 
 
@@ -172,6 +172,26 @@ Then:
     make
     
     sudo make install
+
+The make install gives the error:
+
+    Can't read private key
+    
+which [apparently is not important](http://askubuntu.com/questions/234298/where-is-package-linux-kernel-devel-for-12-04)
+
+Create the file:
+    
+     /etc/depmod.d/hid-apple.conf
+
+containing the line: 
+
+    override hid_apple * extra
+
+Then run: 
+
+    sudo depmod -a
+    
+    
     sudo update-initramfs -u -k all
 
     sudo reboot
