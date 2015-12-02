@@ -6,8 +6,8 @@ Form: <http://ubuntuhandbook.org/index.php/2014/06/skype-4-3-install-in-ubuntu-1
 - Goto "Software & Updates" >  Other Software tab
 - Enable Canonical partners repository
 - Then:
-
-     sudo apt-get update
-     sudo apt-get install skype
-
+```
+sudo apt-get update
+sudo apt-get install skype
+```
 
