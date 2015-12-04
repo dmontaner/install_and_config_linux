@@ -19,3 +19,4 @@ sudo chown -R dmontaner:domontaner NAME OF THE DISK
 ```
 see here <http://askubuntu.com/questions/74806/how-can-i-change-permissions-on-external-drives>
 
+After changing the owner sometimes I need to label again the disk (done as usual).
