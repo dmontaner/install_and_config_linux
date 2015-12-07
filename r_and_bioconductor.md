@@ -43,10 +43,7 @@ Extra
 
 If you need to install the [RCurl](http://cran.es.r-project.org/web/packages/RCurl/index.html) library then do
 
-    sudo apt-get install curl libcurl4-gnutls-dev
-
-_I am not sure the "culr" is needed_ !!!
-
+    sudo apt-get install libcurl4-gnutls-dev
 
 If you need to install the [XML](http://cran.r-project.org/web/packages/XML/index.html) library do first:
 
