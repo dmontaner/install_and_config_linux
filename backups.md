@@ -3,9 +3,10 @@ backintime
 
     sudo apt-get install backintime-common backintime-gnome
 
-If you want your backup to be encrypted you will need: 
+If you want your backup to be __encrypted__ you will need: 
 
     sudo apt-get install encfs
+    sudo adduser root fuse    ## root needs to be member of group 'fuse'. To apply changes logout and login again.
 
 
 Set Up
