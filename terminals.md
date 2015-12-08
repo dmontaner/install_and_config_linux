@@ -8,7 +8,7 @@ Terminator
 
 __Some shortcuts:__
 
-- Alt+ArrowKeys – Navigate terminals
+- Alt+ArrowKeys: __Navigate__ terminals
 
 - Ctrl-Shift-O: will split the window _horizontally_.
 - Ctrl-Shift-E: will split the window vertically.
