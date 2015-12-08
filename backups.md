@@ -1,7 +1,12 @@
 backintime
 ===========
 
-sudo apt-get install backintime-common backintime-gnome
+    sudo apt-get install backintime-common backintime-gnome
+
+If you want your backup to be encrypted you will need: 
+
+    sudo apt-get install encfs
+
 
 Set Up
 -------
@@ -20,3 +25,13 @@ sudo chown -R dmontaner:domontaner NAME OF THE DISK
 see here <http://askubuntu.com/questions/74806/how-can-i-change-permissions-on-external-drives>
 
 After changing the owner sometimes I need to label again the disk (done as usual).
+
+
+Configuration
+--------------
+
+- Run the application as __root__. 
+- Set the folder _Where to save snapshots_ to the hard drive.
+- In _Mode_ you can choose __Local encrypted__ (password would be required then) (__encfs__ needs to be installed)
+- _Include_ home directory.
+- Exclude... 
