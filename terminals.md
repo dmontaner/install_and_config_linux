@@ -8,6 +8,7 @@ Terminator
 
 __Some shortcuts:__
 
+- Alt+ArrowKeys – Navigate terminals
 
 - Ctrl-Shift-O: will split the window _horizontally_.
 - Ctrl-Shift-E: will split the window vertically.
@@ -30,3 +31,6 @@ __Some shortcuts:__
 - Ctrl-Minus (-): Decrease font size. Note: this may require you to  press  shift, depending   on your  keyboard
 - Ctrl+Zero (0): Restore font size to original setting.
 
+See: 
+
+<http://blog.al4.co.nz/2011/05/getting-the-most-out-of-terminator/>
