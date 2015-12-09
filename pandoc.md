@@ -3,7 +3,6 @@ Pandoc
 
 and `pandoc-citeproc` which includes citation processing features.
 
-
 From repos
 ----------
 
@@ -12,6 +11,13 @@ From repos
 
 Install the latest version
 --------------------------
+
+Dependencies: 
+
+    sudo apt-get install haskell-platform 
+    sudo apt-get install texlive
+
+Then:
 
     sudo apt-get install cabal-install
 
@@ -40,4 +46,6 @@ Sometimes you may need to remove old libraries
 
 Then you can re-install pandoc
 
+
+See details here <http://pandoc.org/installing.html>
 
