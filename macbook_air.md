@@ -191,6 +191,6 @@ Then run:
 
     sudo depmod -a
     
-    sudo update-initramfs -u -k all  ##I am not sure this is needed
+    sudo update-initramfs -u -k all
 
     sudo reboot
