@@ -13,7 +13,12 @@ Add puclic key
 
     wget https://www.postgresql.org/media/keys/ACCC4CF8.asc 
     sudo apt-key add ACCC4CF8.asc
-    
+
+A nice tool: pgadmin3 
+
+    sudo apt-get install pgadmin3
+
+
 
 R libraries
 -----------
