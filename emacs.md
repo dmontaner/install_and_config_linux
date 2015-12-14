@@ -112,3 +112,10 @@ Python mode
     sudo apt-get install python-mode
 
 then a py-shell command is available in Emacs 
+
+
+Dictionaries
+==============================
+
+    sudo apt-get install myspell-es aspell-es ispanish 
+
