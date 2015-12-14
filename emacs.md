@@ -117,5 +117,13 @@ then a py-shell command is available in Emacs
 Dictionaries
 ==============================
 
+Install: 
+
     sudo apt-get install myspell-es aspell-es ispanish 
 
+Words added to the dictionary are included in files: 
+
+    ~/.aspell.en.pws
+    ~/.aspell.en.pws
+
+Errors may be cleaned up here. Also the files may be copied across machines
