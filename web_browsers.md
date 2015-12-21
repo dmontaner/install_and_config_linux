@@ -5,7 +5,7 @@ Install Chrome (Google)
     
 Pluging fro hangouts:
 
-Download from <https://www.google.com/tools/dlpage/hangoutplugin/download.html> and:m
+Download from <https://www.google.com/tools/dlpage/hangoutplugin/download.html> and:
     
      sudo dpkg -i google-talkplugin_current_amd64.deb 
 
