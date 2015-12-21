@@ -3,7 +3,13 @@ Install Chrome (Google)
 
     sudo apt-get install chromium-browser
     
+Pluging fro hangouts:
+
+Download from <https://www.google.com/tools/dlpage/hangoutplugin/download.html> and:m
     
+     sudo dpkg -i google-talkplugin_current_amd64.deb 
+
+
 
 Install Firefox
 ===============
