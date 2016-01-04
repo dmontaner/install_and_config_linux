@@ -19,8 +19,8 @@ A nice tool: pgadmin3
     sudo apt-get install pgadmin3
 
 
-R libraries
------------
+R libraries for postgres
+-------------------------
 
 Some dependencies
 
@@ -40,6 +40,18 @@ Client:
 Server: 
 
     sudo apt-get install mysql-server
+
+
+R libraries for MySQL
+-------------------------
+
+Some dependencies
+
+    sudo apt-get install libmariadbclient-dev 
+
+from the R session (as root): 
+
+    install.packages ('RMySQL')
 
 
 SQLite
