@@ -19,15 +19,28 @@ A nice tool: pgadmin3
     sudo apt-get install pgadmin3
 
 
-
 R libraries
 -----------
 
 Some dependencies
 
     ￼sudo apt-get install libpq-dev
-
+    
 from the R session (as root): 
 
     install.packages ('RPostgreSQL')
 
+MySQL    
+===========================================================
+
+Client:
+
+    sudo apt-get install mysql-client
+
+Server: 
+
+    sudo apt-get install mysql-server
+
+
+SQLite
+===========================================================
