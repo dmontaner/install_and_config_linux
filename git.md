@@ -21,3 +21,8 @@ use the commands:
 
 
 This will create the file `.gitconfig` which may be edited to change global settings.
+
+Git GUI
+=======
+
+    sudo apt-get install gitg
