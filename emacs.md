@@ -77,6 +77,22 @@ and include this lines in your `.emacs` file
 
 More details at: <http://jblevins.org/projects/markdown-mode/>
 
+R markdown
+----------
+
+Install the polymode form <https://github.com/vspinu/polymode>
+
+Download to a folder `polymode` and then add this to your .emacs file
+
+```
+(setq load-path
+      (append '("~/.emacs.d/polymode"  "~/.emacs.d/polymode/modes")
+              load-path))
+(require 'poly-R)
+(require 'poly-markdown)
+
+(add-to-list 'auto-mode-alist '("\\.Rmd" . poly-markdown+r-mode))
+```
 
 Fonts
 ======================================
