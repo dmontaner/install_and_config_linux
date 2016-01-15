@@ -38,3 +38,11 @@ Configuration
 - In _Mode_ you can choose __Local encrypted__ (password would be required then) (__encfs__ needs to be installed)
 - _Include_ home directory.
 - Exclude... 
+
+
+Issues
+-------------------
+
+I had to exclude this folder from the backup or I would get some errors
+
+~/.compiz
