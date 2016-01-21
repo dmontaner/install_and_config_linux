@@ -23,6 +23,15 @@ Thus when you __upgrade__ your java version you just need to rewrite the __symbo
 
 The '$JAVA_HOME' variable is used by some applications, R for instance.
 
+remember to sign in as root when reconfiguring R (you get an error otherwise):
+
+    sudo su -
+    R CMD javareconf
+
+See more here https://github.com/biocosas/install_and_config_linux/blob/master/r_and_bioconductor.md#java
+
+
+
 
 Configure Browsers
 ------------------
