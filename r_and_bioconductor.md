@@ -8,7 +8,7 @@ You can install R form the standard repositories in Ubuntu ...
 Install R From r-cran repositories
 ====================================
 
-See more details at <http://cran.es.r-project.org/bin/linux/ubuntu>
+See more details at <http://cran.r-project.org/bin/linux/ubuntu>
 
 
 Include this line in your `/etc/apt/sources.list` file[^foot1]
