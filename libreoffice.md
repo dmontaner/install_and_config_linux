@@ -13,15 +13,11 @@ In my case I had to add these two lines to my `/etc/apt/sources.list` file:
     deb http://ppa.launchpad.net/libreoffice/libreoffice-5-0/ubuntu trusty main
     deb-src http://ppa.launchpad.net/libreoffice/libreoffice-5-0/ubuntu trusty main
 
-You also 
+You also need to add the _signing key_ to the repository:
 
-and follow: 
+    sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys 1378B444
 
-   Adding this PPA to your system > Technical details about this PPA
-
-This will show you the lines to add to your `sources.list` file
-
-Then: 
+Then update the system: 
 
     sudo apt-get update
     sudo apt-get dist-upgrade
