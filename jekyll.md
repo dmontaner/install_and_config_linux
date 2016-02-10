@@ -2,7 +2,7 @@
 
 Dependencies:
 
-    sudo apt-get install ruby1.9.1 ruby1.9.1-dev
+    sudo apt-get install ruby2.0 ruby-dev2.0
     sudo apt-get install nodejs
     sudo gem install bundler
     
