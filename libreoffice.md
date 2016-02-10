@@ -13,9 +13,14 @@ In my case I had to add these two lines to my `/etc/apt/sources.list` file:
     deb http://ppa.launchpad.net/libreoffice/libreoffice-5-0/ubuntu trusty main
     deb-src http://ppa.launchpad.net/libreoffice/libreoffice-5-0/ubuntu trusty main
 
-You also need to add the _signing key_ to the repository:
+You also need to add the _signing key_ to the repository ([see here](http://ubuntuforums.org/showthread.php?t=1263676)):
 
     sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys 1378B444
+
+You can chek that the key si there using: 
+
+    sudo apt-key list
+
 
 Then update the system: 
 
