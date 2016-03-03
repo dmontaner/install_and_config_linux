@@ -23,7 +23,7 @@ Thus when you __upgrade__ your java version you just need to rewrite the __symbo
 
 The '$JAVA_HOME' variable is used by some applications, R for instance.
 
-remember to sign in as root when reconfiguring R (you get an error otherwise):
+__Remember to sign in as root when reconfiguring R (you get an error otherwise):__
 
     sudo su -
     R CMD javareconf
