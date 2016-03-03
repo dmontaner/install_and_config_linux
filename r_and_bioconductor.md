@@ -34,7 +34,8 @@ If you need to use the [rJava](http://cran.es.r-project.org/web/packages/rJava/i
     sudo su -
     R CMD javareconf
 
-__Note__: ´sudo su -´will take you to the superuser. Otherwise java is not available as root.  
+__Note__: ´sudo su -´ will take you to the superuser. Otherwise java is not available as root.  
+See [here](http://askubuntu.com/questions/376199/sudo-su-vs-sudo-i-vs-sudo-bin-bash-when-does-it-matter-which-is-used) for more details about ´sudo su -´  
 See also how to __configure java__ at [java.md](java.md)
 
 
