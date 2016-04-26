@@ -6,8 +6,8 @@ Install Python3:
 
 Install pip:
 
-   sudo apt-get install python-pip
-   sudo pip install --upgrade pip  ## to update it. Usually not the latest version on Ubuntu
+    sudo apt-get install python-pip
+    sudo pip install --upgrade pip  ## to update it. Usually not the latest version on Ubuntu
 
 
 
