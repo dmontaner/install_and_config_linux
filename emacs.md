@@ -143,3 +143,16 @@ Words added to the dictionary are included in files:
     ~/.aspell.en.pws
 
 Errors may be cleaned up here. Also the files may be copied across machines
+
+
+Reading _man_ pages
+===================
+
+Open bash `man` pages using emacs. Idea from [here](http://superuser.com/questions/31404/how-to-make-emacs-read-buffer-from-stdin-on-start):
+
+I create a _eman_ script in my `bin` directory with this line:
+
+    emacs --insert <(man $1)
+
+__NOTE: keep the `<(` wihtout intermediate space__
+
