@@ -154,5 +154,5 @@ I create a _eman_ script in my `bin` directory with this line:
 
     emacs --insert <(man $1)
 
-__NOTE: keep the `<(` wihtout intermediate space__
+__NOTE:__ keep the `<(` wihtout intermediate space
 
