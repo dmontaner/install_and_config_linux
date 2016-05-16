@@ -14,5 +14,19 @@ Python 3
     sudo apt-get install python3-pip
     sudo pip3 install --upgrade pip  ## ??? not sure about this
 
+
+
+
+
+Some Libraries I use
+====================
+
+    pip install pandas
+
+
+
+
+
 Emacs
 ======
+
