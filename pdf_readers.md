@@ -18,6 +18,8 @@ Okular supports for __forms__ and annotations.
 acroread (Adobe Reader)
 =======================
 
+From <http://ubuntuhandbook.org/index.php/2014/10/install-adobe-reader-ubuntu-14-10/>
 
-
-See: <http://ubuntuhandbook.org/index.php/2014/04/install-adobe-reader-ubuntu-1404/>
+    sudo add-apt-repository "deb http://archive.canonical.com/ precise partner"
+    sudo apt-get update
+    sudo apt-get install acroread
