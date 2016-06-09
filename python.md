@@ -15,7 +15,7 @@ Install pip:
 Python 3
 
     sudo apt-get install python3-pip
-    sudo pip3 install --upgrade pip  ## ??? not sure about this
+    sudo pip3 install --upgrade pip  ## first pip is number 3 seccond with no number
 
 
 Notes [from here](http://askubuntu.com/questions/612709/trouble-with-pip-on-14-04)
@@ -23,7 +23,7 @@ Notes [from here](http://askubuntu.com/questions/612709/trouble-with-pip-on-14-0
 1. `sudo apt-get install python-pip` installs pip in `/usr/bin`
 2. `sudo pip install --upgrade pip`  installs pip in `/usr/local/bin`
 
-So after ugrading, the two pip programs are still installed. Sometimes you may need to refress the search path in your shell (open a new one or jusr reboot) 
+So after ugrading, the two pip programs are still installed. Sometimes you may need to refress the search path in your shell (open a new one or jusr reboot). The same ocurs for pip3.
 
 Run `pip -V` to be sure the python version that pip is attached to.
 
@@ -32,9 +32,6 @@ Some Libraries I use
 ====================
 
     pip install pandas
-
-
-
 
 
 Emacs
