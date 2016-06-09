@@ -26,12 +26,6 @@ Notes [from here](http://askubuntu.com/questions/612709/trouble-with-pip-on-14-0
 So after ugrading the two pip programs are still installed. Sometimes you may need to refress the search path in your shell (open a new one or jusr reboot) 
 
 
-    sudo apt-get install python3-pip
-
-/usr/bin/pip -V
-
-
-
 Some Libraries I use
 ====================
 
