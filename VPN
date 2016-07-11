@@ -1,0 +1,10 @@
+Config VPNs
+===========
+
+From <https://help.ubuntu.com/community/NetworkManager>
+
+```
+network-manager-openvpn
+network-manager-vpnc
+network-manager-openconnect
+```
