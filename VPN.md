@@ -1,6 +1,8 @@
 Config VPNs
 ===========
 
+__The VPN packages are not installed by default.__
+
 From <https://help.ubuntu.com/community/NetworkManager>
 
 ```
