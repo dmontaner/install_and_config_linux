@@ -42,9 +42,19 @@ See also how to __configure java__ at [java.md](java.md)
 Extra 
 ------
 
+### RCurl
+
 If you need to install the [RCurl](http://cran.es.r-project.org/web/packages/RCurl/index.html) library then do
 
-    sudo apt-get install libcurl4-gnutls-dev
+    sudo apt-get install libcurl4-openssl-dev
+__Do not use__ `sudo apt-get install libcurl4-gnutls-dev` because apparently it gives some problems... see [here](https://github.com/jeroenooms/curl/issues/63)
+
+Sometimes you may need to install `libcurl4-openssl-dev` from [sources](http://packages.ubuntu.com/trusty/amd64/libcurl4-openssl-dev/download)
+
+__Reinstall__ after reinstalling `libcurl4-openssl-dev`
+
+-----
+
 
 If you need to install the [XML](http://cran.r-project.org/web/packages/XML/index.html) library do first:
 
