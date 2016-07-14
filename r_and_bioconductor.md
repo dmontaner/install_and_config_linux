@@ -51,7 +51,7 @@ __Do not use__ `sudo apt-get install libcurl4-gnutls-dev` because apparently it 
 
 Sometimes you may need to install `libcurl4-openssl-dev` from [sources](http://packages.ubuntu.com/trusty/amd64/libcurl4-openssl-dev/download)
 
-__Reinstall__ after reinstalling `libcurl4-openssl-dev`
+__Reinstall__ `RCurl` after reinstalling `libcurl4-openssl-dev`
 
 -----
 
