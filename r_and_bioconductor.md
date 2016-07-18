@@ -137,3 +137,9 @@ Install Rmpi
 sudo apt-get install r-cran-rmpi 
 sudo apt-get build-dep r-cran-rmpi
 
+
+Grapthincs
+===============
+
+
+
