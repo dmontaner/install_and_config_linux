@@ -28,7 +28,8 @@ Extras
 Many templates will need this modules
 
     sudo gem install jekyll-paginate
-
+    sudo gem install jekyll-seo-tag
+    
 ----------------------------------------------------------------
 
 See <http://jekyllrb.com/docs/quickstart/> for usage
