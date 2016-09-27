@@ -1,7 +1,7 @@
 Some useful tools to handle PDFs
 =================================
 
-    sudo apt-get install pdftk pdfposter 
+    sudo apt-get install pdftk pdfposter xournal
 
 
 Some applications
@@ -17,7 +17,7 @@ Merge pdfs:
 
     pdftk doc1.pdf doc2.pdf doc3.pdf cat output combinado.pdf
 
-___NOTICE__ the `cat output`
+__NOTICE__ the `cat output`
 
 ----
 
@@ -35,3 +35,16 @@ Reorder:
 Extract meta-information:
 
     pdftk doc.pdf dump_data
+
+
+Insert scanned signature into a pdf document:
+
+1. open with `xournal mydoc.pdf` (or file open)
+1. go to __image__ in the menu
+1. click on the document and a _file select_ popup will appear
+1. select your signature (png works fine for me)
+1. arrange the signature in the document
+1. Save as pdf: File > Export to PDF
+
+
+
