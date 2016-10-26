@@ -14,4 +14,6 @@ Not sure about this:
 
 ----
 
+To convert (windows) files to linux format:
 
+    sudo apt-get install dos2unix
