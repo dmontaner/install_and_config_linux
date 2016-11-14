@@ -1,5 +1,8 @@
 [<- Index](000_index.md)
 
+Install Python things
+=======================================================================
+
 Some python version is usually installed by default. 
 
 Install ipython and pip: 
@@ -30,9 +33,4 @@ Run `pip -V` to be sure the python version that pip is attached to.
 Some Libraries I use
 ====================
 
-    pip install pandas
-
-
-Emacs
-======
-
+    sudo -H pip install --upgrade pandas
