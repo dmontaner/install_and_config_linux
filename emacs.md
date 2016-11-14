@@ -19,7 +19,7 @@ sudo apt-get install giflib-tools libgif-dev libgif4
 Then 
 
 ```
-wget ftp://ftp.gnu.org/pub/gnu/emacs/emacs-24.5.tar.gz
+wget ftp://ftp.gnu.org/pub/gnu/emacs/emacs-25.1.tar.gz
 tar -zxvf emacs-24.5.tar.gz
 cd emacs-24.5/
 
