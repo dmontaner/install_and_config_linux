@@ -42,6 +42,8 @@ For the __latest__ version ee <http://ess.r-project.org/index.php?Section=downlo
 
 ```
 wget http://ess.r-project.org/downloads/ess/ess-16.10.tgz
+tar -zxvf ess-16.10.tgz
+cd ess-16.10/
 
 make
 
