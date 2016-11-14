@@ -40,7 +40,8 @@ You can do:
 For the __latest__ version ee <http://ess.r-project.org/index.php?Section=download>
 
 ```
-wget http://ess.r-project.org/downloads/ess/ess-15.09-1.tgz 
+wget http://ess.r-project.org/downloads/ess/ess-16.10.tgz
+
 make
 
 sudo make install    /usr/share/emacs 
