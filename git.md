@@ -1,4 +1,4 @@
-[<-index](000_index.md)
+[<- Index](000_index.md)
 
 Install git
 ===========
