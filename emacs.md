@@ -20,8 +20,8 @@ Then
 
 ```
 wget ftp://ftp.gnu.org/pub/gnu/emacs/emacs-25.1.tar.gz
-tar -zxvf emacs-24.5.tar.gz
-cd emacs-24.5/
+tar -zxvf emacs-25.1.tar.gz
+cd emacs-25.1/
 
 ./configure         # configure Emacs for your particular system
 make                # use Makefile to build components, then Emacs
