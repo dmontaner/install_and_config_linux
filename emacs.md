@@ -24,6 +24,7 @@ tar -zxvf emacs-25.1.tar.gz
 cd emacs-25.1/
 
 ./configure         # configure Emacs for your particular system
+./config.status     # not always needed ?
 make                # use Makefile to build components, then Emacs
 
 sudo make insall
