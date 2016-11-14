@@ -2,22 +2,19 @@
 
 Some python version is usually installed by default. 
 
-Install Python3:
+Install ipython and pip: 
 
-    sudo apt-get install python3 ipython3
+    sudo apt-get install ipython python-pip
+    sudo -H pip install --upgrade pip  ## to update it. Usually not the latest version on Ubuntu
+
+
+Install Python3 (ipython and pip):
+
+    sudo apt-get install python3 ipython3 python3-pip
+    sudo -H pip3 install --upgrade pip  ## first pip is number 3 seccond with no number    
 
 Pip
 =======================================================================
-
-Install pip:
-
-    sudo apt-get install python-pip
-    sudo pip install --upgrade pip  ## to update it. Usually not the latest version on Ubuntu
-
-Python 3
-
-    sudo apt-get install python3-pip
-    sudo pip3 install --upgrade pip  ## first pip is number 3 seccond with no number
 
 
 Notes [from here](http://askubuntu.com/questions/612709/trouble-with-pip-on-14-04)
