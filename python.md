@@ -33,4 +33,4 @@ Run `pip -V` to be sure the python version that pip is attached to.
 Some Libraries I use
 ====================
 
-    sudo -H pip install --upgrade pandas
+    sudo -H pip3 install --upgrade pandas
