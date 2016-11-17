@@ -34,3 +34,11 @@ Some Libraries I use
 ====================
 
     sudo -H pip3 install --upgrade pandas
+
+
+PyCharm
+=======================================================================
+
+Download form: https://www.jetbrains.com/pycharm/
+
+
