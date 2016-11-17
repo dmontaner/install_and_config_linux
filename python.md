@@ -43,3 +43,6 @@ PyCharm
 - Extract
 - run `bin/pycharm.sh` in the extracted folders
 
+Link:
+
+    ln -s pycharm-community-2016.2.3/bin/pycharm.sh pycharm
