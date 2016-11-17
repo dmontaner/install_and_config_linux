@@ -39,6 +39,7 @@ Some Libraries I use
 PyCharm
 =======================================================================
 
-Download form: https://www.jetbrains.com/pycharm/
-
+- Download form: https://www.jetbrains.com/pycharm/
+- Extract
+- run `bin/pycharm.sh` in the extracted folders
 
