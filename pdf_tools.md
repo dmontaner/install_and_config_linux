@@ -36,8 +36,9 @@ Extract meta-information:
 
     pdftk doc.pdf dump_data
 
+----
 
-Insert scanned signature into a pdf document:
+Insert scanned __signature__ into a pdf document:
 
 1. open with `xournal mydoc.pdf` (or file open)
 1. go to __image__ in the menu
