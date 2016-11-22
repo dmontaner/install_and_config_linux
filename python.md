@@ -29,13 +29,6 @@ So after ugrading, the two pip programs are still installed. Sometimes you may n
 
 Run `pip -V` to be sure the python version that pip is attached to.
 
-
-Some Libraries I use
-====================
-
-    sudo -H pip3 install --upgrade pandas
-
-
 PyCharm
 =======================================================================
 
@@ -46,3 +39,28 @@ PyCharm
 Link:
 
     ln -s pycharm-community-2016.2.3/bin/pycharm.sh pycharm
+
+
+Some libraries I use
+=======================================================================
+
+    sudo -H pip3 install --upgrade pandas
+    sudo -H pip3 install --upgrade nltk
+
+
+configure NLTK
+------------------------------------------
+
+Run `ipython3` and then: 
+
+    import nltk
+    nltk.download()
+
+My _Downloading Directory_ for all NLTK collections is `~/datos/nltk_data`.  
+Thus I have to set the 
+
+
+
+
+
+
