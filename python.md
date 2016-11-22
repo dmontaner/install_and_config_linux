@@ -56,11 +56,8 @@ Run `ipython3` and then:
     import nltk
     nltk.download()
 
-My _Downloading Directory_ for all NLTK collections is `~/datos/nltk_data`.  
-Thus I have to set the 
+My _Downloading Directory_ for all NLTK collections is `/home/dmontaner/datos/nltk_data` so I need to to set the `NLTK_DATA` environment variable. To do this I add this line to my `.profile` file:
 
+    export NLTK_DATA=/home/dmontaner/datos/nltk_data
 
-
-
-
-
+See [here](http://stackoverflow.com/questions/3522372/how-to-config-nltk-data-directory-from-code) for details.
