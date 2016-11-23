@@ -17,3 +17,14 @@ For `swf` files:
 
     sudo apt-get install gnash
 
+
+Video Editor
+=========================================================================================
+
+OpenShot install as idicated in their website <http://www.openshot.org/ppa/>
+
+```
+sudo add-apt-repository ppa:openshot.developers/ppa
+sudo apt-get update
+sudo apt-get install openshot-qt
+```
