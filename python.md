@@ -29,6 +29,20 @@ So after ugrading, the two pip programs are still installed. Sometimes you may n
 
 Run `pip -V` to be sure the python version that pip is attached to.
 
+
+iPython
+=======================================================================
+
+Update iPython
+
+    sudo -H pip  install --upgrade "ipython[all]"
+    sudo -H pip3 install --upgrade "ipython[all]"
+
+
+
+
+
+
 PyCharm
 =======================================================================
 
