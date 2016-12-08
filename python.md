@@ -38,10 +38,10 @@ Update iPython
     sudo -H pip  install --upgrade "ipython[all]"
     sudo -H pip3 install --upgrade "ipython[all]"
 
+Jupyter
+=======================================================================
 
-
-
-
+    sudo -H pip3 install jupyter
 
 PyCharm
 =======================================================================
