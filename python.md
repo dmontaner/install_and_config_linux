@@ -60,7 +60,7 @@ Some libraries I use
 
     sudo -H pip3 install --upgrade pandas
     sudo -H pip3 install --upgrade nltk
-    sudo -H pip3 install --upgrade openpyxl  ## excel
+    sudo -H pip3 install --upgrade openpyxl xlrd ## excel
 
 configure NLTK
 ------------------------------------------
