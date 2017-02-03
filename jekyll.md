@@ -30,7 +30,8 @@ Many templates will need this modules
     sudo gem install jekyll-paginate
     sudo gem install jekyll-seo-tag
     sudo gem install kramdown rouge
-
+    sudo gem install jekyll-sitemap
+ 
     
 ----------------------------------------------------------------
 
