@@ -31,7 +31,8 @@ Many templates will need this modules
     sudo gem install jekyll-seo-tag
     sudo gem install kramdown rouge
     sudo gem install jekyll-sitemap
- 
+    sudo gem install jekyll-git
+    sudo gem install jekyll-feed
     
 ----------------------------------------------------------------
 
