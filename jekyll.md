@@ -1,7 +1,7 @@
 Dependencies:
 ================
 
-    sudo apt-get install ruby2.0 ruby-dev2.0
+    sudo apt-get install ruby2.0 ruby2.0-dev ruby2.0-doc libruby2.0 
     sudo apt-get install nodejs
     sudo gem install bundler
     
