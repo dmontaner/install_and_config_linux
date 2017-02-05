@@ -3,7 +3,6 @@ Dependencies:
 
     sudo apt-get install ruby2.0 ruby2.0-dev ruby2.0-doc libruby2.0 
     sudo apt-get install nodejs
-    sudo gem install bundler
     
 ruby version __2.0__ is required. You may need to update the default version set in your computer:
 
@@ -15,6 +14,11 @@ ruby version __2.0__ is required. You may need to update the default version set
     
 See (here)[http://stackoverflow.com/questions/33503796/error-installing-jekyll-requires-ruby-2-0-0]
 
+Install bundler
+===============
+(I am not sure what it does)
+
+    sudo gem install bundler
 
 Install Jekyll
 ==============
