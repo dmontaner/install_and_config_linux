@@ -6,6 +6,19 @@ Install git
     sudo apt get install git
 
 
+For the latest version
+----------------------
+
+From http://askubuntu.com/questions/568591/how-do-i-install-the-latest-version-of-git-with-apt/568596
+
+```
+sudo apt-add-repository ppa:git-core/ppa
+sudo apt-get update
+sudo apt-get install git
+```
+
+
+
 Configure
 ---------
 
