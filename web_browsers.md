@@ -31,3 +31,15 @@ Dictionary
     Rigth button > Languages > Add Dictionaries
 
 This will take you to the Firefox Add-ons page.
+
+Flash
+------
+
+
+From http://ubuntuhandbook.org/index.php/2014/04/install-adobe-flash-in-ubuntu-14-04-lts/
+
+Software & Updates” >>> Other “Software” tab >>> Canonical
+
+    sudo apt-get update
+    sudo apt-get purge adobe-flash{plugin,-properties-gtk}
+    sudo apt-get install flashplugin-installer
