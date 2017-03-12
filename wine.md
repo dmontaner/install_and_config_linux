@@ -5,4 +5,4 @@ From https://wiki.winehq.org/Ubuntu
     sudo apt-get update
     sudo apt-get install --install-recommends winehq-staging
 
-
+Accept the licence
