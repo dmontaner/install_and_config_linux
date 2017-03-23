@@ -1,6 +1,20 @@
 Install Chrome (Google)
 =======================
 
+Download `.deb` from 
+https://www.google.com/chrome/browser/thankyou.html?platform=linux
+and:
+
+    sudo dpkg -i google-chrome-stable_current_amd64.deb 
+
+or from repos: 
+
+    sudo apt-get install google-chrome-stable
+
+
+Install Chromium
+=======================
+
     sudo apt-get install chromium-browser
     
 Pluging fro hangouts:
