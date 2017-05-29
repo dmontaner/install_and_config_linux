@@ -1,1 +1,22 @@
-See https://github.com/dmontaner/.emacs.d
+
+Install from apt repos first __(this will include some dependencies needed)__:\
+
+    sudo apt-get istall emacs
+
+Some more dependencies:
+
+    sudo apt-get install libx11-dev
+    sudo apt-get install xaw3dg xaw3dg-dev
+    sudo apt-get install libgif-dev libtiff5-dev 
+
+Download the latest version from https://www.gnu.org/software/emacs/
+
+    wget http://ftp.gnu.org/gnu/emacs/emacs-25.2.tar.gz
+    tar -vzxf emacs-25.2.tar.gz
+    cd emacs-25.2/
+    ./configure
+    make
+    
+    sudo make install
+
+For configuration see https://github.com/dmontaner/.emacs.d
