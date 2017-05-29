@@ -15,6 +15,13 @@ Then in you shell:
     sudo apt-get update
     sudo apt-get install r-base r-base-deb
 
+Bioconductor + packages
+
+    sudo R
+
+    source("http://bioconductor.org/biocLite.R")
+    biocLite()
+    install.packages("dpyr", "ggplot2", "openxlsx", "RSQLite", "curl", "RCurl", "jsonlite", "knitr", "markdown", "shiny")
 
 
 
