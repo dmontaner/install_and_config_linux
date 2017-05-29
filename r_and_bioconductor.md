@@ -21,7 +21,7 @@ Bioconductor + packages
 
     source("http://bioconductor.org/biocLite.R")
     biocLite()
-    install.packages("dpyr", "ggplot2", "openxlsx", "RSQLite", "curl", "RCurl", "jsonlite", "knitr", "markdown", "shiny")
+    install.packages(c ("dpyr", "ggplot2", "openxlsx", "RSQLite", "curl", "RCurl", "jsonlite", "knitr", "markdown", "shiny"))
 
 
 
