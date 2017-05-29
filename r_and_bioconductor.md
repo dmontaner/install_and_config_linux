@@ -1,23 +1,13 @@
-You can install R form the standard repositories in Ubuntu ...
-
-    sudo apt-get install r-base-core
-
-... but this will probably not give you the latest version. It may be better to
-
+Standard repositories in Ubuntu usually have old versions of R.
 
 Install R From r-cran repositories
 ====================================
 
 See more details at <http://cran.r-project.org/bin/linux/ubuntu>
 
-
-Include this line in your `/etc/apt/sources.list` file[^foot1]
-
-[^foot1]: this will add a new repository to your list
-
-    deb http://cran.es.r-project.org/bin/linux/ubuntu trusty/
-
-and then run: 
+    deb https://cran.r-project.org/bin/linux/ubuntu yakkety/
+    
+This will include the reop in your `/etc/apt/sources.list` file
 
     sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys E084DAB9    # adds the key
     sudo apt-get update
