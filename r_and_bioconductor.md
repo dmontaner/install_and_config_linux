@@ -5,9 +5,11 @@ Install R From r-cran repositories
 
 See more details at <http://cran.r-project.org/bin/linux/ubuntu>
 
-    sudo deb https://cran.r-project.org/bin/linux/ubuntu yakkety/
-    
-This will include the reop in your `/etc/apt/sources.list` file
+Edit file `/etc/apt/sources.list` and add this line:
+
+    deb https://cran.r-project.org/bin/linux/ubuntu yakkety/
+
+Then in you shell:
 
     sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys E084DAB9    # adds the key
     sudo apt-get update
