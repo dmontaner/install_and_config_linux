@@ -13,7 +13,7 @@ Then in you shell:
 
     sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys E084DAB9    # adds the key
     sudo apt-get update
-    sudo apt-get install r-base
+    sudo apt-get install r-base r-base-deb
 
     sudo apt-get install r-base-dev r-cran-boot r-cran-class r-cran-cluster r-cran-codetools r-cran-foreign r-cran-kernsmooth r-cran-lattice r-cran-mass r-cran-matrix r-cran-mgcv r-cran-nlme r-cran-nnet r-cran-rpart r-cran-spatial r-cran-survival r-cran-rodbc  
 
