@@ -5,7 +5,7 @@ Install R From r-cran repositories
 
 See more details at <http://cran.r-project.org/bin/linux/ubuntu>
 
-    deb https://cran.r-project.org/bin/linux/ubuntu yakkety/
+    sudo deb https://cran.r-project.org/bin/linux/ubuntu yakkety/
     
 This will include the reop in your `/etc/apt/sources.list` file
 
