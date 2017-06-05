@@ -57,3 +57,6 @@ Software & Updates” >>> Other “Software” tab >>> Canonical
     sudo apt-get update
     sudo apt-get purge adobe-flash{plugin,-properties-gtk}
     sudo apt-get install flashplugin-installer
+
+
+https://www.mozilla.org/en-US/firefox/organizations/
