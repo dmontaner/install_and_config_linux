@@ -1,14 +1,17 @@
-DVD
-=========================================================================================
+# To be able to use DVD in ubuntu 16:
 
-https://help.ubuntu.com/community/RestrictedFormats/PlayingDVDs
+See here: 
+https://askubuntu.com/questions/845205/how-to-play-dvds-in-ubuntu-16-04
 
-    sudo apt-get install libdvdread4
-    sudo /usr/share/doc/libdvdread4/install-css.sh
-    sudo apt-get install vlc
+    sudo apt-get install libdvd-pkg
+    sudo dpkg-reconfigure libdvd-pkg
 
 Rebooting may be necessary. 
 
+# DVD player
+Other than the default in ubuntu
+
+    sudo apt-get install vlc
 
 Video Formats
 =========================================================================================
