@@ -1,13 +1,10 @@
 Install Skype
 =============
 
-Form: <http://ubuntuhandbook.org/index.php/2014/06/skype-4-3-install-in-ubuntu-1404/>
+Download `.deb` from https://www.skype.com/en/download-skype/skype-for-computer/
+and install: 
 
-- Goto "Software & Updates" >  Other Software tab
-- Enable Canonical partners repository
-- Then:
-```
-sudo apt-get update
-sudo apt-get install skype
-```
+    sudo dpkg -i kypeforlinux-64.deb
 
+
+Test using VLC (the video player): VLC > Media > Open Capture Device > Play
