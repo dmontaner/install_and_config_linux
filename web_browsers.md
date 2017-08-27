@@ -17,7 +17,7 @@ Install Chromium
 
     sudo apt-get install chromium-browser
     
-Pluging fro hangouts:
+Pluging for hangouts:
 
 Download from <https://www.google.com/tools/dlpage/hangoutplugin/download.html> and:
     
