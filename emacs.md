@@ -11,9 +11,8 @@ Some more dependencies:
     
     sudo apt-get install build-essential texinfo  libxpm-dev libjpeg-dev libpng-dev libncurses-dev
     sudo apt-get install libxaw7*
-    
-    
-# for gtk3 build replace libgtk2.0-dev with libgtk-3-dev
+ 
+ (for gtk3 build replace libgtk2.0-dev with libgtk-3-dev)
 
 
 Download the latest version from https://www.gnu.org/software/emacs/
@@ -27,3 +26,5 @@ Download the latest version from https://www.gnu.org/software/emacs/
     sudo make install
 
 For configuration see https://github.com/dmontaner/.emacs.d
+
+Executables are placed in folder `/src`
