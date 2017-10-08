@@ -9,7 +9,8 @@ Some more dependencies:
     sudo apt-get install xaw3dg xaw3dg-dev
     sudo apt-get install libgif-dev libtiff5-dev
     
-    sudo apt-get install build-essential texinfo  libxpm-dev libjpeg-dev libpng-dev libgtk3.0-dev libncurses-dev
+    sudo apt-get install build-essential texinfo  libxpm-dev libjpeg-dev libpng-dev libncurses-dev
+    sudo apt-get install libxaw7*
     
     
 # for gtk3 build replace libgtk2.0-dev with libgtk-3-dev
