@@ -2,6 +2,7 @@ Some useful tools to handle PDFs
 =================================
 
     sudo apt-get install pdftk pdfposter xournal
+    sudo apt-get install pdfchain
 
 
 Some applications
