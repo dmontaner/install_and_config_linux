@@ -142,4 +142,11 @@ Grapthincs
 ===============
 
 
+Local library
+===============
 
+Whithin the R session `.libpaths()` will tell you the `searchpaths`
+
+You can add some more paths from within R using `.libpaths('/my/new/path')` or configure it adding this line to the `~.Renvirion` file: 
+
+    R_LIBS=/my/new/path
