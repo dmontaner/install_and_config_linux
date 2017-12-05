@@ -7,7 +7,7 @@ See more details at <http://cran.r-project.org/bin/linux/ubuntu>
 
 Edit file `/etc/apt/sources.list` and add this line:
 
-    deb https://cran.r-project.org/bin/linux/ubuntu yakkety/
+    deb https://cran.r-project.org/bin/linux/ubuntu xenial/
 
 Then in you shell:
 
