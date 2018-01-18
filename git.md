@@ -34,8 +34,11 @@ use the commands:
     git config --global user.name "dmontaner"
     git config --global core.editor emacs
 
-
 This will create the file `.gitconfig` which may be edited to change global settings.
+
+To let the shell cache the password:
+
+    git config --global credential.helper 'cache --timeout=300'
 
 Git GUI
 =======
