@@ -77,6 +77,10 @@ It is better installed doing:
 If you need [devtools](https://cran.r-project.org/web/packages/devtools/index.html) it depends of [openssl](https://cran.r-project.org/web/packages/openssl/index.html). You will need this dependency:  
 
     sudo apt-get install libgdal1-dev
+    
+And some dependency to build packages:
+
+    sudo apt-get install qpdf
 
 
 Update packages
