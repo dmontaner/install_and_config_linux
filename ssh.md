@@ -1,9 +1,14 @@
 
-
-
 SSH config is available in the `~.ssh/` directory `~.ssh/config` file
 
-See on how to create keys
+Generate ssh key for github
+-----------------------------------------------------------------------
+
+<https://help.github.com/articles/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent/>
+
+    ssh-keygen -t rsa -b 4096 -C
+
+See also on how to create keys
 https://debian-administration.org/article/530/SSH_with_authentication_key_instead_of_password
 
 Set bitbucket
