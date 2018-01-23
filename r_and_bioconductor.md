@@ -72,10 +72,11 @@ It is better installed doing:
     sudo apt-get install r-cran-rgl
 
 
+----------
 
+If you need [devtools](https://cran.r-project.org/web/packages/devtools/index.html) it depends of [openssl](https://cran.r-project.org/web/packages/openssl/index.html). You will need this dependency:  
 
-
-
+    sudo apt-get install libgdal1-dev
 
 
 Update packages
