@@ -4,9 +4,12 @@ SSH config is available in the `~.ssh/` directory `~.ssh/config` file
 Generate ssh key for github
 -----------------------------------------------------------------------
 
-<https://help.github.com/articles/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent/>
-
+<https://help.github.com/articles/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent/>h
+    
     ssh-keygen -t rsa -b 4096 -C
+    
+See how to add the key to github:  
+<https://help.github.com/articles/adding-a-new-ssh-key-to-your-github-account/>
 
 See also on how to create keys
 https://debian-administration.org/article/530/SSH_with_authentication_key_instead_of_password
