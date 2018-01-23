@@ -122,9 +122,14 @@ You can find your Bioconductor version doing:
     R
     BiocInstaller::biocVersion ()
 
+Sometimes `BiocInstaller` is a bit old and `biocLite` does not upgrade Bioconductor properly. In such cases I uninstall `BiocInstaller` manually:   
 
-
-but this will probably not give you the latest version
+    R CMD REMOVE BiocInstaller
+ 
+ And then call again:
+ 
+    source("http://bioconductor.org/biocLite.R")  # this call is what installs BiocInstaller
+    biocLite()
 
 
 Bioconductor development version
