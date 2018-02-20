@@ -6,11 +6,16 @@ Nemo supports the __split screen__ option (F3).
     sudo apt-get install nemo
 
 To have the latest version see:  
-<http://sourcedigit.com/21540-nemo-file-manager-for-ubuntu-install-nemo-on-ubuntu-linux/>
+<http://www.webupd8.org/2016/11/nemo-320-with-unity-patches-and-without.html>
 
-    sudo add-apt-repository ppa:webupd8team/nemo
+ppa description here: <https://launchpad.net/~webupd8team/+archive/ubuntu/nemo3>
+
+
+    sudo add-apt-repository ppa:webupd8team/nemo3
     sudo apt-get update
     sudo apt-get install nemo nemo-fileroller
+
+see also <http://sourcedigit.com/21540-nemo-file-manager-for-ubuntu-install-nemo-on-ubuntu-linux/>
 
 
 Nautilus
