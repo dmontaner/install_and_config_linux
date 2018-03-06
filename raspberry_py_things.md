@@ -12,6 +12,9 @@ Test as:
 
     services --status-all
 
+Find current ip:
+
+    ifconfig | grep inet
 
 
 SETTING WIFI UP VIA THE COMMAND LINE
