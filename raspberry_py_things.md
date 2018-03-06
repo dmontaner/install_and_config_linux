@@ -1,6 +1,16 @@
 
-Find mac addres
+Enable SSH server
 ===================================================================================
+
+From
+<https://www.raspberrypi.org/documentation/remote-access/ssh/>
+
+    sudo systemctl enable ssh
+    sudo systemctl start ssh
+
+Test as:
+
+    services --status-all
 
 
 
