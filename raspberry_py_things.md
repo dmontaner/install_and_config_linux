@@ -41,7 +41,10 @@ Standard:
 
 - Download
 - format SD card as `ext4`
-- create image using ``
+- create image using `usb-creator-gtk`
 
+default user : pi
+default password: raspberry
 
+See
 <https://www.raspberrypi.org/forums/viewtopic.php?t=133691>
