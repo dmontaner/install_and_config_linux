@@ -16,6 +16,11 @@ Find current ip:
 
     ifconfig | grep inet
 
+Find MAC address
+
+    ifconfig | grep ether 
+
+
 
 SETTING WIFI UP VIA THE COMMAND LINE
 ===================================================================================
