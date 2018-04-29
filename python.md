@@ -62,7 +62,7 @@ Some libraries I use
     sudo -H pip3 install --upgrade nltk
     sudo -H pip3 install --upgrade openpyxl xlrd ## excel
     sudo -H pip3 install --upgrade feather-format
-    sudo -H pip3 install --upgrade
+    sudo -H pip3 install --upgrade 
 
 configure NLTK
 ------------------------------------------
@@ -77,3 +77,10 @@ My _Downloading Directory_ for all NLTK collections is `/home/dmontaner/datos/nl
     export NLTK_DATA=/home/dmontaner/datos/nltk_data
 
 See [here](http://stackoverflow.com/questions/3522372/how-to-config-nltk-data-directory-from-code) for details.
+
+pyplot
+------------------------------------------
+
+Needs this dependence:
+
+    sudo apt-get install python3-tk
