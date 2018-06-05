@@ -57,3 +57,5 @@ from the R session (as root):
 
 SQLite
 ===========================================================
+
+    sudo apt-get install sqlite3 libsqlite3-dev
