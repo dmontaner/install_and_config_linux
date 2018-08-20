@@ -3,7 +3,16 @@ Standard repositories in Ubuntu usually have old versions of R.
 Install R From r-cran repositories
 ====================================
 
-See more details at <http://cran.r-project.org/bin/linux/ubuntu>
+See more details at  
+http://cran.r-project.org/bin/linux/ubuntu  
+https://www.digitalocean.com/community/tutorials/how-to-install-r-on-ubuntu-18-04
+
+
+    sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys E298A3A825C0D65DFD57CBB651716619E084DAB9
+
+    sudo add-apt-repository 'deb https://cloud.r-project.org/bin/linux/ubuntu bionic-cran35/'
+
+
 
 Edit file `/etc/apt/sources.list` and add this line:
 
