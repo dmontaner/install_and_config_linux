@@ -11,6 +11,8 @@ Some more dependencies:
     
     sudo apt-get install build-essential texinfo  libxpm-dev libjpeg-dev libpng-dev libncurses-dev
     sudo apt-get install libxaw7*
+    sudo apt-get install gnutls*
+
  
  (for gtk3 build replace libgtk2.0-dev with libgtk-3-dev)
 
