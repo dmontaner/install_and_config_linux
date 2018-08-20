@@ -7,20 +7,22 @@ See more details at
 http://cran.r-project.org/bin/linux/ubuntu  
 https://www.digitalocean.com/community/tutorials/how-to-install-r-on-ubuntu-18-04
 
+Add apt key:
 
-    sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys E298A3A825C0D65DFD57CBB651716619E084DAB9
+    sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys E084DAB9
+
+Add apt repository:
 
     sudo add-apt-repository 'deb https://cloud.r-project.org/bin/linux/ubuntu bionic-cran35/'
 
+The latest command will include this line in the `/etc/apt/sources.list` file:
+(this step can be done manually)
 
+    deb https://cloud.r-project.org/bin/linux/ubuntu bionic-cran35/
 
-Edit file `/etc/apt/sources.list` and add this line:
-
-    deb https://cran.r-project.org/bin/linux/ubuntu xenial/
 
 Then in you shell:
 
-    sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys E084DAB9    # adds the key
     sudo apt-get update
     sudo apt-get upgrade
     sudo apt-get install r-base r-base-deb
