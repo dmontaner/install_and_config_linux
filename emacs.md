@@ -9,7 +9,7 @@ Some more dependencies:
     sudo apt-get install xaw3dg xaw3dg-dev
     sudo apt-get install libgif-dev libtiff5-dev
     
-    sudo apt-get install build-essential texinfo  libxpm-dev libjpeg-dev libpng-dev libncurses-dev
+    sudo apt-get install build-essential texinfo libxpm-dev libjpeg-dev libpng-dev libncurses-dev
     sudo apt-get install libxaw7*
     sudo apt-get install gnutls*
 
@@ -21,8 +21,8 @@ Download the latest version from https://www.gnu.org/software/emacs/
 
     wget http://ftp.gnu.org/gnu/emacs/emacs-26.1.tar.gz
     tar -vzxf emacs-26.1.tar.gz
-    cd emacs-25.2/
-    ./configure
+    cd emacs-26.1/
+    ./configure --with-gnutls=no
     make
     
     sudo make install
