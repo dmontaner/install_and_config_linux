@@ -1,6 +1,6 @@
 [<- Index](000_index.md)
 
-Install Python things
+Install From repositories
 =======================================================================
 
 Some python version is usually installed by default. 
@@ -28,6 +28,18 @@ Notes [from here](http://askubuntu.com/questions/612709/trouble-with-pip-on-14-0
 So after ugrading, the two pip programs are still installed. Sometimes you may need to refress the search path in your shell (open a new one or jusr reboot). The same ocurs for pip3.
 
 Run `pip -V` to be sure the python version that pip is attached to.
+
+
+Build from sources
+=======================================================================
+
+Download the .tgz from https://www.python.org/ and then:
+
+    tar -xvzf Python-3.7.0.tgz 
+    cd cd Python-3.7.0/
+    ./configure
+    make
+
 
 
 iPython
