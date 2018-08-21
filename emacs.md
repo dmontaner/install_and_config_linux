@@ -14,12 +14,10 @@ But you will need to uncomment some dev lines in your `/etc/apt/sources.list` fi
 See [here](https://askubuntu.com/questions/826890/apt-build-dep-fails-unable-to-locate-source-package-despite-deb-src-lines-pres/etc/apt/sources.list)
 
 Some more dependencies:
-
-    sudo apt-get install libx11-dev
-    sudo apt-get install xaw3dg xaw3dg-dev
-    sudo apt-get install libgif-dev libtiff5-dev
     
-    sudo apt-get install build-essential texinfo libxpm-dev libjpeg-dev libpng-dev libncurses-dev
+    sudo apt-get install build-essential texinfo libxpm-dev libjpeg-dev libpng-dev libncurses-dev libgif-dev libtiff5-dev
+    sudo apt-get install libx11-dev
+
     sudo apt-get install libxaw7*
     sudo apt-get install gnutls*
 
