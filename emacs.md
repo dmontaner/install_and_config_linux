@@ -15,10 +15,9 @@ See [here](https://askubuntu.com/questions/826890/apt-build-dep-fails-unable-to-
 
 Some more dependencies:
     
-    sudo apt-get install build-essential texinfo libxpm-dev libjpeg-dev libpng-dev libncurses-dev libgif-dev libtiff5-dev
+    sudo apt-get install build-essential texinfo libxpm-dev libncurses-dev
+    sudo apt-get install libjpeg-dev libpng-dev  libgif-dev libtiff5-dev
     sudo apt-get install libx11-dev
-
-    sudo apt-get install libxaw7*
     sudo apt-get install gnutls*
 
 (for gtk3 build replace libgtk2.0-dev with libgtk-3-dev)
