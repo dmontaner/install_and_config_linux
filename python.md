@@ -54,7 +54,10 @@ Download the .tgz from https://www.python.org/ and then:
     cd cd Python-3.7.0/
     ./configure
     make -j 6
+    
+    sudo make install
 
+NOTE: `pip` (library and executable) should come by default. If it does not probably something is wrong with the installation.
 
 
 iPython
