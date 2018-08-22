@@ -33,6 +33,21 @@ Run `pip -V` to be sure the python version that pip is attached to.
 Build from sources
 =======================================================================
 
+Some dependencies [see here](https://stackoverflow.com/questions/27022373/python3-importerror-no-module-named-ctypes-when-using-value-from-module-mul/41310760)
+```
+sudo apt-get update
+sudo apt-get upgrade
+sudo apt-get dist-upgrade
+sudo apt-get install build-essential python-dev python-setuptools python-smbus
+sudo apt-get install libncursesw5-dev libgdbm-dev libc6-dev
+sudo apt-get install zlib1g-dev libsqlite3-dev tk-dev
+sudo apt-get install libssl-dev openssl
+sudo apt-get install libffi-dev
+```
+
+
+
+
 Download the .tgz from https://www.python.org/ and then:
 
     tar -xvzf Python-3.7.0.tgz 
