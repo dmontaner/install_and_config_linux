@@ -54,7 +54,7 @@ Download the .tgz from https://www.python.org/ and then:
     
 Upgrade pip3
 
-    sudo -H pip3 install --upgrade pi
+    sudo -H pip3 install --upgrade pip
 
 NOTE: `pip` (library and executable) should come by default. If it does not probably something is wrong with the installation.
 
