@@ -86,11 +86,12 @@ Some libraries I use
 
 ```
 sudo -H pip3 install --upgrade numpy scypy scikit-learn
-sudo -H pip3 install --upgrade pandas 
-sudo -H pip3 install --upgrade matplotlib seaborn
-sudo -H pip3 install --upgrade nltk
+sudo -H pip3 install --upgrade pandas
 sudo -H pip3 install --upgrade openpyxl xlrd ## excel
 sudo -H pip3 install --upgrade feather-format
+sudo -H pip3 install --upgrade matplotlib seaborn
+sudo -H pip3 install --upgrade nltk
+sudo -H pip3 install --upgrade gensim
 sudo -H pip3 install --upgrade 
 ```
 
