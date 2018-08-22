@@ -38,7 +38,7 @@ Download the .tgz from https://www.python.org/ and then:
     tar -xvzf Python-3.7.0.tgz 
     cd cd Python-3.7.0/
     ./configure
-    make
+    make -j 6
 
 
 
