@@ -87,7 +87,7 @@ Some libraries I use
 =======================================================================
 
 ```
-sudo -H pip3 install --upgrade numpy scypy scikit-learn
+sudo -H pip3 install --upgrade numpy scipy scikit-learn
 sudo -H pip3 install --upgrade pandas
 sudo -H pip3 install --upgrade openpyxl xlrd ## excel
 sudo -H pip3 install --upgrade feather-format
