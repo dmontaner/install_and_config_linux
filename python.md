@@ -33,7 +33,7 @@ Run `pip -V` to be sure the python version that pip is attached to.
 Build from sources
 =======================================================================
 
-Some dependencies [see here](https://stackoverflow.com/questions/27022373/python3-importerror-no-module-named-ctypes-when-using-value-from-module-mul/41310760)
+Install some dependencies firsts ([see here](https://stackoverflow.com/questions/27022373/python3-importerror-no-module-named-ctypes-when-using-value-from-module-mul/41310760))
 ```
 sudo apt-get update
 sudo apt-get upgrade
