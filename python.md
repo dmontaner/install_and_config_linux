@@ -8,8 +8,7 @@ Some python version is usually installed by default.
 Install ipython and pip: 
 
     sudo apt-get install ipython python-pip
-    sudo -H pip install --upgrade pip  ## to update it. Usually not the latest version on Ubuntu
-
+    sudo -H pip install --upgrade pip       # update pip. Usually Ubuntu does not have the latest version.
 
 Install Python3 (ipython and pip):
 
@@ -60,17 +59,16 @@ Upgrade pip3
 NOTE: `pip` (library and executable) should come by default. If it does not probably something is wrong with the installation.
 
 
-iPython
+iPython & Jupyter
 =======================================================================
 
-Update iPython
+In python 3 you can install both doing:
 
-    sudo -H pip  install --upgrade "ipython[all]"
     sudo -H pip3 install --upgrade "ipython[all]"
 
-Jupyter
-=======================================================================
+In python 2 you may need:
 
+    sudo -H pip  install --upgrade "ipython[all]"  # I am not sure about this
     sudo -H pip3 install jupyter
 
 PyCharm
