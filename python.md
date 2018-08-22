@@ -19,7 +19,6 @@ Install Python3 (ipython and pip):
 Pip
 =======================================================================
 
-
 Notes [from here](http://askubuntu.com/questions/612709/trouble-with-pip-on-14-04)
 
 1. `sudo apt-get install python-pip` installs pip in `/usr/bin`
@@ -45,15 +44,12 @@ sudo apt-get install libssl-dev openssl
 sudo apt-get install libffi-dev
 ```
 
-
-
-
 Download the .tgz from https://www.python.org/ and then:
 
     tar -xvzf Python-3.7.0.tgz 
     cd cd Python-3.7.0/
-    ./configure
-    make -j 6
+    ./configure --enable-optimizations
+    make -j 7
     
     sudo make install
 
