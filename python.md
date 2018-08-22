@@ -52,6 +52,10 @@ Download the .tgz from https://www.python.org/ and then:
     make -j 7
     
     sudo make install
+    
+Upgrade pip3
+
+    sudo -H pip3 install --upgrade pi
 
 NOTE: `pip` (library and executable) should come by default. If it does not probably something is wrong with the installation.
 
