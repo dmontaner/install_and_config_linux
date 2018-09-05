@@ -1,5 +1,5 @@
 Nemo
-===================================================
+================================================================================
 
 Nemo supports the __split screen__ option (F3).
 
@@ -18,8 +18,16 @@ ppa description here: <https://launchpad.net/~webupd8team/+archive/ubuntu/nemo3>
 see also <http://sourcedigit.com/21540-nemo-file-manager-for-ubuntu-install-nemo-on-ubuntu-linux/>
 
 
+Set terminator as default terminal
+--------------------------------------------------------------------------------
+
+    gsettings set org.cinnamon.desktop.default-applications.terminal exec terminator
+
+(no sudo is required)
+
+
 Nautilus
-========
+================================================================================
 
 Is the __default__ file manager in in Ubuntu 14.04
 
@@ -30,7 +38,7 @@ You can install it:
 
 
 Open terminal here
-------------------
+--------------------------------------------------------------------------------
 
 ```
 sudo add-apt-repository universe  # may be not needed
