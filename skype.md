@@ -1,10 +1,11 @@
 Install Skype
 =============
 
-Download `.deb` from https://www.skype.com/en/download-skype/skype-for-computer/
+Download `.deb` file:
+
+    wget https://go.skype.com/skypeforlinux-64.deb 
+
 and install: 
 
-    sudo dpkg -i skypeforlinux-64.deb
-
-
-Test using VLC (the video player): VLC > Media > Open Capture Device > Play
+    sudo dpkg -i skypeforlinux-64.deb 
+    sudo apt-get install -f
