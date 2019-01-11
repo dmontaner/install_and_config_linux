@@ -66,7 +66,7 @@ The amazon files should have been created in folder:
     ~/.wine/drive_c/Program Files (x86)/Amazon Web Services, Inc/
 
 
-Remove the following file to stop crashes on program start:  
+__Remove the following file to stop crashes on program start:__  
 From <https://appdb.winehq.org/objectManager.php?sClass=version&iId=37045>
 
     rm ~/.wine/drive_c/Program\ Files\ \(x86\)/Amazon\ Web\ Services\,\ Inc/Amazon\ WorkSpaces/vchan_plugins/pcoip_vchan_remoteprintclient.dll
