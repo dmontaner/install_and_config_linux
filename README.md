@@ -3,7 +3,7 @@ install_and_config
 
 Some tips to install and configure Linux and some Linux applications used in bioinformatics.  
 
-Tested in __Ubuntu 14.04__
+Started with Ubuntu 14.04 but currenly using __18.04__.
 
 
 
