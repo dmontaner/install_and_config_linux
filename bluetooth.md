@@ -1,11 +1,12 @@
 Deactivate Bluetooth on system startup
 ======================================
-From <http://askubuntu.com/questions/67758/how-can-i-deactivate-bluetooth-on-system-startup>
+From <https://askubuntu.com/questions/67758/how-can-i-deactivate-bluetooth-on-system-startup>
 
-Edit the file `/etc/rc.local` and add this before line with `exit 0`:
+Edit (or create) the file `/etc/rc.local` with this lines:
 
+    #!/bin/sh
     rfkill block bluetooth
-
+    exit 0
 
 
 How to change Bluetooth broadcast device name
