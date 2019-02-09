@@ -1,7 +1,14 @@
 backintime
 ===========
 
-    sudo apt-get install backintime-common backintime-gnome
+__not working with 18.04__
+
+
+    sudo apt-get install backintime-common backintime-gnome backintime-qt4
+
+Needs this python3 dependence:
+
+    sudo -H pip3 install dbus-python
 
 If you want your backup to be __encrypted__ you will need: 
 

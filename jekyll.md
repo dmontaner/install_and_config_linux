@@ -1,29 +1,37 @@
 Dependencies:
 ================
 
-    sudo apt-get install ruby2.0 ruby2.0-dev ruby2.0-doc libruby2.0 
+See:
+
+- <https://jekyllrb.com/docs/installation/>
+- <https://jekyllrb.com/docs/installation/ubuntu/>
+
+
+Install:
+
+    sudo apt-get install ruby2.5 ruby2.5-dev ruby2.5-doc libruby2.5
+    sudo apt-get install ruby-full build-essential zlib1g-dev
+    sudo gem update --system
+
     sudo apt-get install nodejs
-    
-ruby version __2.0__ is required. You may need to update the default version set in your computer:
 
-    cd /usr/bin
-    sudo unlink ruby
-    sudo ln -s ruby2.0 ruby
-    sudo unlink gem
-    sudo ln -s gem2.0 gem
-    
-See (here)[http://stackoverflow.com/questions/33503796/error-installing-jekyll-requires-ruby-2-0-0]
 
-Install bundler
-===============
-(I am not sure what it does)
+Pahts
+==============
 
-    sudo gem install bundler
+    cd
+    echo '# Install Ruby Gems to ~/.gems'      >> ~/.bashrc
+    echo 'export GEM_HOME="$HOME/.gems"'       >> ~/.bashrc
+    echo 'export PATH="$HOME/.gems/bin:$PATH"' >> ~/.bashrc
+    source ~/.bashrc
+
 
 Install Jekyll
 ==============
 
-    sudo gem install jekyll 
+Do not use sudo here:
+    
+    gem install jekyll bundler
 
 
 Extras
@@ -31,12 +39,12 @@ Extras
 
 Many templates will need this modules
 
-    sudo gem install jekyll-paginate
-    sudo gem install jekyll-seo-tag
-    sudo gem install kramdown rouge
-    sudo gem install jekyll-sitemap
-    #sudo gem install jekyll-gist
-    sudo gem install jekyll-feed
+     gem install jekyll-paginate
+     gem install jekyll-seo-tag
+     gem install kramdown rouge
+     gem install jekyll-sitemap
+     # gem install jekyll-gist
+     gem install jekyll-feed
     
 ----------------------------------------------------------------
 

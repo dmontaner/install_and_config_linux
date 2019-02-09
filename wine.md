@@ -72,9 +72,18 @@ From <https://appdb.winehq.org/objectManager.php?sClass=version&iId=37045>
     rm ~/.wine/drive_c/Program\ Files\ \(x86\)/Amazon\ Web\ Services\,\ Inc/Amazon\ WorkSpaces/vchan_plugins/pcoip_vchan_remoteprintclient.dll
 
 Then you can __start__ the Amazon WorkSpace as:
+
+    cd ~  # important to be in your home
     
-    wine start .wine/drive_c/Program\ Files\ \(x86\)/Amazon\ Web\ Services\,\ Inc/Amazon\ WorkSpaces/workspaces.exe
+    wine   start .wine/drive_c/Program\ Files\ \(x86\)/Amazon\ Web\ Services\,\ Inc/Amazon\ WorkSpaces/workspaces.exe
     wine64 start .wine/drive_c/Program\ Files\ \(x86\)/Amazon\ Web\ Services\,\ Inc/Amazon\ WorkSpaces/workspaces.exe
+
+
+Note: `wine start` or `wine64 start` does not let me:
+ - quote the file path with the spaces.
+ - have any path prefix before the `.wine/` part. Thus I have to launch it always from my home.
+
+For __updates__ of the Amazon WorkSpaces just follow the setup when it pops up.
 
 
 References
