@@ -39,13 +39,14 @@ Extras
 
 Many templates will need this modules
 
-     gem install jekyll-paginate
-     gem install jekyll-seo-tag
-     gem install kramdown rouge
-     gem install jekyll-sitemap
-     # gem install jekyll-gist
-     gem install jekyll-feed
-    
+    gem install jekyll-paginate
+    gem install jekyll-seo-tag
+    gem install kramdown rouge
+    gem install jekyll-sitemap
+    # gem install jekyll-gist
+    gem install jekyll-feed
+    gem install github-pages
+
 ----------------------------------------------------------------
 
 See <http://jekyllrb.com/docs/quickstart/> for usage
