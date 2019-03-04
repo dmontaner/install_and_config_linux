@@ -117,3 +117,15 @@ pyplot
 Needs this dependence:
 
     sudo apt-get install python3-tk
+
+
+
+Databases
+================================================================================
+
+
+Microsoft SQL Server
+--------------------------------------------------------------------------------
+
+    sudo apt-get install unixodbc unixodbc-dev
+    sudo -H pip3 install pyodbc
