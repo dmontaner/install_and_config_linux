@@ -51,7 +51,11 @@ For __global__ configuration do:
     git config --global credential.helper store
 
 and then _git clone_ or some other command that will require user and password;
-those will be stored in a file `~.git-credentials` __in plain text so be careful__.
+those will be stored in a file
+
+    ~/.git-credentials
+
+__in plain text so be careful__.
 
 For __local__ (repository) configuration you can clone as:
 
