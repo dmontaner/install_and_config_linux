@@ -48,5 +48,9 @@ Insert scanned __signature__ into a pdf document:
 1. arrange the signature in the document
 1. Save as pdf: File > Export to PDF
 
+----
 
+reduce pdf size:
 
+    pdf2ps big.pdf tmp.ps
+    ps2pdv tmp.ps small.pdf
