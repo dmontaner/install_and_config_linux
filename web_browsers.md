@@ -1,5 +1,5 @@
 Install Chrome (Google)
-=======================
+================================================================================
 
 Download `.deb` from 
 https://www.google.com/chrome/browser/thankyou.html?platform=linux
@@ -13,11 +13,11 @@ or from repos:
 
 
 Install Chromium
-=======================
+================================================================================
 
     sudo apt-get install chromium-browser
     
-Pluging for hangouts:
+Plugging for hangouts:
 
 Download from <https://www.google.com/tools/dlpage/hangoutplugin/download.html> and:
     
@@ -26,7 +26,7 @@ Download from <https://www.google.com/tools/dlpage/hangoutplugin/download.html> 
 
 
 Install Firefox
-===============
+================================================================================
 
     sudo apt-get install firefox
 
@@ -42,7 +42,7 @@ Install <https://addons.mozilla.org/en-US/firefox/addon/tiddlyfox/>
 Dictionary
 ----------
 
-    Rigth button > Languages > Add Dictionaries
+    Right button > Languages > Add Dictionaries
 
 This will take you to the Firefox Add-ons page.
 
@@ -60,3 +60,12 @@ Software & Updates” >>> Other “Software” tab >>> Canonical
 
 
 https://www.mozilla.org/en-US/firefox/organizations/
+
+
+
+Lynx
+================================================================================
+
+    sudo apt-get install linx
+
+See <http://lynx.browser.org/>
