@@ -82,6 +82,12 @@ Link:
 
     ln -s pycharm-community-2016.2.3/bin/pycharm.sh pycharm
 
+Or
+
+    sudo snap install [pycharm-professional|pycharm-community] --classic
+
+see <https://www.jetbrains.com/pycharm/download/#section=linux>
+
 
 Some libraries I use
 =======================================================================

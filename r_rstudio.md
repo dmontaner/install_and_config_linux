@@ -15,7 +15,9 @@ Download from
 
 And run: 
 
-    sudo dpkg -i rstudio-*****-amd64.deb 
+    sudo dpkg -i rstudio-*****-amd64.deb
+    sudo apt-get install -f
+
 
 Preview versions are available at:
 <https://www.rstudio.com/products/rstudio/download/preview/>
