@@ -11,3 +11,8 @@ Configuration is done in file:
 
 https://askubuntu.com/questions/557556/why-is-my-etc-fstab-file-unconfigured
 
+-----
+
+Disk recovery
+
+    sudo apt-get install testdisk
