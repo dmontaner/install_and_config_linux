@@ -24,3 +24,8 @@ https://debian-administration.org/article/530/SSH_with_authentication_key_instea
 
 Set bitbucket
 https://confluence.atlassian.com/bitbucket/add-an-ssh-key-to-an-account-302811853.html
+
+Let in
+-----------------------------------------------------------------------
+
+    sudo apt-get install openssh-server openssh-client
