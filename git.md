@@ -3,7 +3,7 @@
 Install git
 ================================================================================
 
-    sudo apt get install git
+    sudo apt-get install git
 
 
 For the latest version
