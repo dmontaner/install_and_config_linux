@@ -25,7 +25,7 @@ Then in you shell:
 
     sudo apt-get update
     sudo apt-get upgrade
-    sudo apt-get install r-base r-base-deb
+    sudo apt-get install r-base-core r-base-deb
 
 Bioconductor + packages
 
