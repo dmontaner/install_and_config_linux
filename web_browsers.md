@@ -6,7 +6,8 @@ https://www.google.com/chrome/browser/thankyou.html?platform=linux
 and:
 
     wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
-    sudo dpkg -i google-chrome-stable_current_amd64.deb 
+    sudo dpkg -i google-chrome-stable_current_amd64.deb
+    sudo apt-get install -f
 
 or from repos: 
 
@@ -22,7 +23,8 @@ Plugging for hangouts:
 
 Download from <https://www.google.com/tools/dlpage/hangoutplugin/download.html> and:
     
-     sudo dpkg -i google-talkplugin_current_amd64.deb 
+     sudo dpkg -i google-talkplugin_current_amd64.deb
+     sudo apt-get install -f
 
 
 
