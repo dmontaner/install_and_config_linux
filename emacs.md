@@ -4,7 +4,7 @@ Do not skip this first step of setting up dependencies
 
 Install current version from apt repos first __(this will include some needed dependencies)__:
 
-    sudo apt-get istall emacs
+    sudo apt-get install emacs
 
 NOTE: similar dependencies can be installed by: 
 
