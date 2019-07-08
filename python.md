@@ -146,7 +146,8 @@ igraph dependencies:
 
     sudo apt-get install  build-essential python-dev
     sudo apt install guile-2.0-dev
-    
-    sudo ln -s /usr/lib/x86_64-linux-gnu/libOpenCL.so.1 /usr/lib/libOpenCL.so
+    sudo apt-get install libigraph0-dev  libigraph0v5
+
+    sudo ln -s /usr/lib/x86_64-linux-gnu/libOpenCL.so.1 /usr/lib/libOpenCL.so  # I am not sure if I need this
     
     
