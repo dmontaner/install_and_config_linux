@@ -135,3 +135,10 @@ Microsoft SQL Server
 
     sudo apt-get install unixodbc unixodbc-dev
     sudo -H pip3 install pyodbc
+    
+Misc
+================================================================================
+
+igraph dependencies:
+
+    sudo apt install guile-2.0-dev
