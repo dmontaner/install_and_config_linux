@@ -149,5 +149,9 @@ igraph dependencies:
     sudo apt-get install libigraph0-dev  libigraph0v5
 
     sudo ln -s /usr/lib/x86_64-linux-gnu/libOpenCL.so.1 /usr/lib/libOpenCL.so  # I am not sure if I need this
-    
+
+
+pygraphviz dependencies
+
+    sudo apt-get install python-dev graphviz libgraphviz-dev pkg-config
     
