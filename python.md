@@ -141,4 +141,6 @@ Misc
 
 igraph dependencies:
 
+
+    sudo apt-get install  build-essential python-dev
     sudo apt install guile-2.0-dev
