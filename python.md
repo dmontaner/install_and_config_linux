@@ -141,6 +141,12 @@ Misc
 
 igraph dependencies:
 
+[see](https://askubuntu.com/questions/1007591/usr-bin-ld-cannot-find-lopencl)
+
 
     sudo apt-get install  build-essential python-dev
     sudo apt install guile-2.0-dev
+    
+    sudo ln -s /usr/lib/x86_64-linux-gnu/libOpenCL.so.1 /usr/lib/libOpenCL.so
+    
+    
