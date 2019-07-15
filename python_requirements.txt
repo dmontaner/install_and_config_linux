@@ -35,3 +35,4 @@ tox-venv
 werkzeug
 wtforms
 xlrd
+pycairo
