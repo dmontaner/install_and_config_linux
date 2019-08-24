@@ -3,6 +3,7 @@ Some useful tools to handle PDFs
 
     sudo apt-get install pdftk pdfposter xournal
     sudo apt-get install pdfchain
+    sudo apt-get install poppler-utils
 
 
 Some applications
@@ -54,3 +55,18 @@ reduce pdf size:
 
     pdf2ps big.pdf tmp.ps
     ps2pdv tmp.ps small.pdf
+
+----
+
+find fonts [from](http://ask.xmodulo.com/check-which-fonts-are-used-pdf-document.html):
+
+    pdffonts doc.pdf
+
+
+Install fonts
+===================================================
+
+<https://linuxconfig.org/how-to-install-fonts-on-ubuntu-18-04-bionic-beaver-linux>
+
+    sudo apt -y install font-manager
+
