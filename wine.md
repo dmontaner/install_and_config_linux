@@ -4,6 +4,12 @@
 Install wine
 ================================================================================
 
+Prior dependencies:
+
+    sudo apt-get uninstall libasound2-plugins:i386
+    
+see also [here](https://askubuntu.com/questions/1164191/wine-staging-fails-to-install-on-18-04)
+
 From <https://wiki.winehq.org/Ubuntu>
 
     sudo dpkg --add-architecture i386  # If your system is 64 bit, enable 32 bit architecture (if you haven't already):
