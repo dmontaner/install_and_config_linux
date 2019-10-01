@@ -7,4 +7,8 @@ And log out / log in
 For configuration from terminal see:
 
     xrandr
-    
+
+-----
+
+<https://iiyama.com/gb_en/products/g-master-gb2888uhsu-b1/>  
+(3840 x 2160) resolution
