@@ -36,3 +36,5 @@ werkzeug
 wtforms
 xlrd
 pycairo
+flake8
+pandas-vet
