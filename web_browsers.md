@@ -53,12 +53,11 @@ Flash
 ------
 
 
-From http://ubuntuhandbook.org/index.php/2014/04/install-adobe-flash-in-ubuntu-14-04-lts/
+From https://vitux.com/how-to-install-adobe-flash-player-on-ubuntu/
 
-Software & Updates” >>> Other “Software” tab >>> Canonical
-
+    sudo add-apt-repository "deb http://archive.canonical.com/ $(lsb_release -sc) partner"
     sudo apt-get update
-    sudo apt-get purge adobe-flash{plugin,-properties-gtk}
+    # sudo apt-get purge adobe-flash{plugin,-properties-gtk}
     sudo apt-get install flashplugin-installer
 
 
