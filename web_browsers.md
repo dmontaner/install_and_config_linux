@@ -60,6 +60,7 @@ From https://vitux.com/how-to-install-adobe-flash-player-on-ubuntu/
     # sudo apt-get purge adobe-flash{plugin,-properties-gtk}
     sudo apt-get install flashplugin-installer
 
+Test and activate at: https://helpx.adobe.com/flash-player.html
 
 https://www.mozilla.org/en-US/firefox/organizations/
 
