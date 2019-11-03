@@ -35,6 +35,8 @@ IP aliases
 
 In `/etc/hosts`: 
 
+```
 192.168.0.3 name1
 192.168.0.4 name2
 192.168.0.5 name3
+```
