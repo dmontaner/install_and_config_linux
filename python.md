@@ -161,3 +161,17 @@ pygraphviz dependencies
 
     sudo apt-get install python-dev graphviz libgraphviz-dev pkg-config
     
+
+
+Memory Profiling
+--------------------------------------------------------------------------------
+
+Install:
+
+    pip install -U memory_profiler
+
+
+Usage:
+
+    mprof run my_script.py
+    mprof plot
