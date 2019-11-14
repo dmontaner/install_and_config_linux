@@ -1,15 +1,44 @@
-As indicated in <https://docs.mongodb.org/manual/tutorial/install-mongodb-on-ubuntu/>
 
-```
-sudo apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv EA31292
-echo "deb http://repo.mongodb.org/apt/ubuntu trusty/mongodb-org/3.2 multiverse" | sudo tee /etc/apt/sources.list.d/mongodb-org-3.2.list
-sudo apt-get update
-sudo apt-get install -y mongodb-org
-```
+
+
+From <https://docs.mongodb.org/manual/tutorial/install-mongodb-on-ubuntu/>
+
+Dependencies:
+
+    sudo apt-get install gnupg
+
+Install:
+
+    wget -qO - https://www.mongodb.org/static/pgp/server-4.2.asc | sudo apt-key add -
+    echo "deb [ arch=amd64 ] https://repo.mongodb.org/apt/ubuntu bionic/mongodb-org/4.2 multiverse" | sudo tee /etc/apt/sources.list.d/mongodb-org-4.2.list
+    sudo apt-get update
+    sudo apt-get install -y mongodb-org
+
+Files and Directories:
+
+- `/etc/mongod.conf` configuration file.
+- `/var/lib/mongodb` data directory.
+- `/var/log/mongodb` log directory.
+
+
+Users:
+
+- By default, MongoDB runs using the __mongodb__ user account.
+
+
+Service:
+
+    sudo service mongod start
+    sudo service mongod status
+
+See logs at:
+
+    sudo tail -f /var/log/mongodb/mongod.log 
+
 
 
 MongoChef
-==========
+================================================================================
 
 Download from <http://3t.io/>
 
