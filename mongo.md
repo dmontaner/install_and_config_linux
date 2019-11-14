@@ -30,6 +30,7 @@ Service:
 
     sudo service mongod start
     sudo service mongod status
+    sudo service mongod stop
 
 See logs at:
 
