@@ -38,3 +38,4 @@ xlrd
 pycairo
 flake8
 pandas-vet
+memory_profiler
