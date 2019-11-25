@@ -71,6 +71,23 @@ In python 2 you may need:
     sudo -H pip  install --upgrade "ipython[all]"  # I am not sure about this
     sudo -H pip3 install jupyter
 
+
+Tornado version problem (kernel does not connect):  
+<https://stackoverflow.com/questions/54955563/jupyter-notebook-cannot-connect-to-kernel>
+
+    sudo -H pip3 install -U tornado==5.1.1
+
+
+
+Spelling and extensions:  
+from <http://qingkaikong.blogspot.com/2018/09/spell-checking-in-jupyter-notebook.html>
+
+    sudo -H pip3 install jupyter_contrib_nbextensions
+
+    jupyter contrib nbextension install --user
+    jupyter nbextension enable spellchecker/main
+
+
 PyCharm
 =======================================================================
 
