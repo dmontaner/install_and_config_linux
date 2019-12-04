@@ -2,6 +2,8 @@
 
 https://wiki.debian.org/SecureApt
 
+https://askubuntu.com/questions/65911/how-can-i-fix-a-404-error-when-using-a-ppa-or-updating-my-package-lists
+
 
 Add repository
 --------------------------------------------------------------------------------
