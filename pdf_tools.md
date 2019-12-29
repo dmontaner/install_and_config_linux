@@ -54,7 +54,7 @@ Insert scanned __signature__ into a pdf document:
 reduce pdf size:
 
     pdf2ps big.pdf tmp.ps
-    ps2pdv tmp.ps small.pdf
+    ps2pdf tmp.ps small.pdf
 
 ----
 
