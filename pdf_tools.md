@@ -4,6 +4,9 @@ Some useful tools to handle PDFs
     sudo apt-get install pdftk pdfposter xournal
     sudo apt-get install pdfchain
     sudo apt-get install poppler-utils
+    
+For ubuntu 18.04:
+    sudo snap install pdftk
 
 
 Some applications
