@@ -87,6 +87,10 @@ from <http://qingkaikong.blogspot.com/2018/09/spell-checking-in-jupyter-notebook
     jupyter contrib nbextension install --user
     jupyter nbextension enable spellchecker/main
 
+from <https://github.com/mwouts/jupytext>
+
+    sudo -H pip3 install jupytext
+
 
 PyCharm
 =======================================================================
