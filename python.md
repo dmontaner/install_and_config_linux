@@ -88,6 +88,17 @@ from <http://qingkaikong.blogspot.com/2018/09/spell-checking-in-jupyter-notebook
     jupyter nbextension enable spellchecker/main
 
 
+R in jupyter
+-----------------------------------------------------------------------
+
+<https://irkernel.github.io/installation/>
+
+sudo R
+
+    install.packages('IRkernel')
+    IRkernel::installspec(user = FALSE)
+
+
 PyCharm
 =======================================================================
 
