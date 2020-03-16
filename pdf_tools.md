@@ -4,6 +4,9 @@ Some useful tools to handle PDFs
     sudo apt-get install pdftk pdfposter xournal
     sudo apt-get install pdfchain
     sudo apt-get install poppler-utils
+    
+For ubuntu 18.04:
+    sudo snap install pdftk
 
 
 Some applications
@@ -54,7 +57,7 @@ Insert scanned __signature__ into a pdf document:
 reduce pdf size:
 
     pdf2ps big.pdf tmp.ps
-    ps2pdv tmp.ps small.pdf
+    ps2pdf tmp.ps small.pdf
 
 ----
 
