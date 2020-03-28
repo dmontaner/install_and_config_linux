@@ -1,3 +1,9 @@
+https://www.maketecheasier.com/time-machine-alternatives-linux/
+
+sudo apt-get install deja-dup
+
+
+
 backintime
 ===========
 
