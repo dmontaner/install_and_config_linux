@@ -1,5 +1,5 @@
 Postgres
-===========================================================
+================================================================================
 
     sudo apt-get install postgresql
     sudo apt-get install postgresql-contrib 
@@ -25,14 +25,14 @@ R libraries for postgres
 
 Some dependencies
 
-    ￼sudo apt-get install libpq-dev
+    sudo apt-get install libpq-dev
     
 from the R session (as root): 
 
     install.packages ('RPostgreSQL')
 
-MySQL    
-===========================================================
+MySQL
+================================================================================
 
 Client:
 
@@ -56,6 +56,21 @@ from the R session (as root):
 
 
 SQLite
-===========================================================
+================================================================================
 
     sudo apt-get install sqlite3 libsqlite3-dev
+
+
+
+Flyway
+================================================================================
+
+See: <https://flywaydb.org/documentation/commandline/#download-and-installation>
+
+
+    cd /opt
+    wget -qO- https://repo1.maven.org/maven2/org/flywaydb/flyway-commandline/6.3.3/flyway-commandline-6.3.3-linux-x64.tar.gz | sudo tar xvz 
+    sudo chmod 755 flyway-6.3.3/flyway
+
+    cd /usr/local/bin
+    sudo ln -s /opt/flyway-6.3.3/flyway .
