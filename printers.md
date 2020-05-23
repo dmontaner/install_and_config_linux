@@ -11,3 +11,8 @@ http://localhost:631/jobs/
 
 Media Printer: Casete
 Use the CUPS web interface: point your browser at http://localhost:631/jobs/ and proceed from there
+
+
+Print from command line:
+
+    lp test.pdf
