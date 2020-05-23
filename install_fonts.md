@@ -10,10 +10,10 @@ standard ones include
 
 Create a new sub dir and copy the __TTR__ archives there. 
 
-Sometimes you may ned to run: 
+Sometimes you may need to run: 
 
     sudo fc-cache -f -v
 
 (I did not need this anytime)
 
-Reload teh program you are using
+Reload the program you are using
