@@ -40,3 +40,9 @@ List of keys:
 Release files:
 
     /var/lib/apt/lists
+    
+    
+Show all ppa repos:
+
+    grep ^ /etc/apt/sources.list /etc/apt/sources.list.d/*
+
