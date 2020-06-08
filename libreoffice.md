@@ -1,4 +1,12 @@
 
+
+    sudo add-apt-repository ppa:libreoffice/ppa
+    sudo apt update && sudo apt install libreoffice
+
+------------------------------------------------------------------------------------
+
+Old
+
 To install the latest version add the repositories to the file
 
     /etc/apt/sources.list
