@@ -37,3 +37,16 @@ Use the CUPS web interface: point your browser at http://localhost:631/jobs/ and
 Print from command line:
 
     lp test.pdf
+
+Brother HL-L2350DW
+--------------------------------------------------------------------------------
+
+[Support page](https://support.brother.com/g/b/producttop.aspx?c=gb&lang=en&prod=hll2350dw_us_eu_as)
+
+Download __.deb__ file from:  
+
+<https://support.brother.com/g/b/downloadlist.aspx?c=gb&lang=en&prod=hll2350dw_us_eu_as&os=128>
+
+and install as any other deb file.
+
+Then standard printer setup.
