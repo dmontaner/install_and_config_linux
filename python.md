@@ -1,5 +1,49 @@
 [<- Index](000_index.md)
 
+
+Updated ppa
+=======================================================================
+
+Notes from <https://docs.python-guide.org/starting/install3/linux/>
+
+Install python:
+
+```
+sudo apt-get install software-properties-common
+sudo add-apt-repository ppa:deadsnakes/ppa
+sudo apt-get update
+sudo apt-get install python3.8
+```
+
+Update pip:
+
+```
+sudo -H python3.8 -m pip install -U six
+sudo -H python3.8 -m pip install -U pip
+```
+
+Extra packages:
+
+```
+sudo -H pip3 install Jinja2 jinja2-cli
+sudo -H pip3 install pytest
+sudo -H pip3 install virtualenv
+sudo -H pip3 install tox tox-venv
+sudo -H pip3 install "ipython[all]"
+```
+
+
+
+
+
+With this set up:
+
+- `python3.8` is installd in `/usr/bin/python3.8`
+- `pip3.8`    is installd in `/usr/local/bin/pip3.8`
+- python3.8 library is installed in `/usr/local/lib`
+
+
+
 Install From repositories
 =======================================================================
 
