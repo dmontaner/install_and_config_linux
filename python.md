@@ -1,6 +1,25 @@
 [<- Index](000_index.md)
 
 
+General dependencies
+=======================================================================
+
+# sudo python-dev python3-dev
+
+``` \
+sudo apt-get install -y \
+guile-2.0-dev \
+build-essential python-dev \
+libigraph0-dev libigraph0v5 \
+guile-2.0-dev \
+python3-tk \
+unixodbc unixodbc-dev \
+libncursesw5-dev libgdbm-dev libc6-dev \
+zlib1g-dev libsqlite3-dev tk-dev \
+libssl-dev openssl \
+libffi-dev \
+```
+
 Updated ppa
 =======================================================================
 
@@ -29,7 +48,7 @@ sudo -H pip3 install Jinja2 jinja2-cli
 sudo -H pip3 install pytest
 sudo -H pip3 install virtualenv
 sudo -H pip3 install tox tox-venv
-sudo -H pip3 install "ipython[all]"
+sudo -H pip3 install ipython[all]
 ```
 
 
@@ -165,19 +184,6 @@ Or
 see <https://www.jetbrains.com/pycharm/download/#section=linux>
 
 
-Some libraries I use
-=======================================================================
-
-```
-sudo -H pip3 install --upgrade numpy scipy scikit-learn
-sudo -H pip3 install --upgrade pandas
-sudo -H pip3 install --upgrade openpyxl xlrd ## excel
-sudo -H pip3 install --upgrade feather-format
-sudo -H pip3 install --upgrade matplotlib seaborn
-sudo -H pip3 install --upgrade nltk
-sudo -H pip3 install --upgrade gensim
-sudo -H pip3 install --upgrade 
-```
 
 configure NLTK
 ------------------------------------------
@@ -220,10 +226,9 @@ igraph dependencies:
 [see](https://askubuntu.com/questions/1007591/usr-bin-ld-cannot-find-lopencl)
 
 
-    sudo apt-get install  build-essential python-dev
-    sudo apt install guile-2.0-dev
+    sudo apt-get install build-essential python-dev
     sudo apt-get install libigraph0-dev libigraph0v5
-    
+    sudo apt install guile-2.0-dev
 
     sudo ln -s /usr/lib/x86_64-linux-gnu/libOpenCL.so.1 /usr/lib/libOpenCL.so  # I am not sure if I need this
 
