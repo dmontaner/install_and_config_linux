@@ -1,10 +1,2 @@
-jwt
-service
-pycairo
-memory_profiler
-feather-format
 
-pyodbc
-mysql
 
-tensorflow
