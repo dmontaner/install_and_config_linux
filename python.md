@@ -18,6 +18,7 @@ libncursesw5-dev libgdbm-dev libc6-dev \
 zlib1g-dev libsqlite3-dev tk-dev \
 libssl-dev openssl \
 libffi-dev \
+python3-testresources python3-widgetsnbextension \
 ```
 
 Updated ppa
@@ -32,6 +33,12 @@ sudo apt-get install software-properties-common
 sudo add-apt-repository ppa:deadsnakes/ppa
 sudo apt-get update
 sudo apt-get install python3.8
+```
+
+Extra dependencies (version dependent)
+
+```
+sudo apt-get install python3.8-dev
 ```
 
 Update pip:
@@ -50,10 +57,6 @@ sudo -H pip3 install virtualenv
 sudo -H pip3 install tox tox-venv
 sudo -H pip3 install ipython[all]
 ```
-
-
-
-
 
 With this set up:
 
