@@ -1,7 +1,24 @@
 requests
 pyyaml
+yq
 jsonschema
+jwt
+wrapt
+service
+pycairo
+python-igraph
+memory_profiler
+xlrd
+openpyxl
 
+sqlalchemy
+pymysql
+mysql
+pyodbc
+boto3
+botocore
+moto
+cx-Oracle
 
 flask
 flask_httpauth
@@ -10,18 +27,15 @@ gunicorn
 werkzeug
 dash
 
-
-markdown
-imageio
-matplotlib
-
 numpy
 pandas
 scipy
 scikit-learn
 dask[complete]
+feather-format
 
-
+markdown
+imageio
 matplotlib
 seaborn
 plotly
@@ -29,7 +43,6 @@ plotly
 opencv-python
 nltk
 gensim
+spacy
 
-
-xlrd
-openpyxl
+tensorflow
