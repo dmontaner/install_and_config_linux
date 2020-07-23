@@ -1,5 +1,11 @@
 Install Java
 ============
+Go to <http://www.oracle.com/technetwork/java/javase/downloads>
+and download the .dev file. Then:
+
+    sudo dpkg -i jdk-14.0.2_linux-x64_bin.deb 
+
+------
 
 Go to <http://www.oracle.com/technetwork/java/javase/downloads>
 and follow the __JDK__ download link (not the JRE ones)
