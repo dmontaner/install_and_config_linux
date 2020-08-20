@@ -28,9 +28,14 @@ Users:
 
 Service:
 
-    sudo service mongod start
-    sudo service mongod status
-    sudo service mongod stop
+    sudo systemctl start   mongod
+    sudo systemctl status  mongod
+    sudo systemctl stop    mongod
+    sudo systemctl restart mongod
+    
+Ensure that MongoDB will start following a system reboot:
+
+    sudo systemctl enable mongod
 
 See logs at:
 
