@@ -1,11 +1,40 @@
-From <https://askubuntu.com/questions/1088662/npm-depends-node-gyp-0-10-9-but-it-is-not-going-to-be-installed>
 
-Set up `nodejs`:
 
-    sudo apt-get update
-    sudo apt-get install nodejs
-    sudo apt-get install nodejs-dev node-gyp libssl1.0-dev
-    sudo apt-get install npm
 
-    nodejs --version
-    npm --version
+Install latest stable version
+--------------------------------------------------------------------------------
+
+See: 
+
+- <https://github.com/nodesource/distributions/blob/master/README.md>
+- <https://nodejs.org/en/download/>
+
+```
+curl -sL https://deb.nodesource.com/setup_12.x | sudo -E bash -
+sudo apt-get install -y nodejs
+```
+
+Install nodejs and npm from Ubuntu repos
+--------------------------------------------------------------------------------
+
+See:
+
+- <https://www.digitalocean.com/community/tutorials/how-to-install-node-js-on-ubuntu-18-04>
+- <https://askubuntu.com/questions/1088662/npm-depends-node-gyp-0-10-9-but-it-is-not-going-to-be-installed>
+
+```
+sudo apt-get update
+sudo apt-get upgrade
+
+sudo apt-get install nodejs
+
+sudo apt install libssl1.0-dev  # this is a dependency for npm
+sudo apt-get install npm
+```
+
+Check versions
+
+```
+nodejs --version
+npm --version
+```
