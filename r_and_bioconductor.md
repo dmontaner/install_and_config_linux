@@ -4,28 +4,30 @@ Install R From r-cran repositories
 ====================================
 
 See more details at  
+
+
 http://cran.r-project.org/bin/linux/ubuntu  
 https://www.digitalocean.com/community/tutorials/how-to-install-r-on-ubuntu-18-04
 
 Add apt key:
 
-    sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys E084DAB9
+    sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys E298A3A825C0D65DFD57CBB651716619E084DAB9
 
 Add apt repository:
 
-    sudo add-apt-repository 'deb https://cloud.r-project.org/bin/linux/ubuntu bionic-cran35/'
+    sudo add-apt-repository 'deb https://cloud.r-project.org/bin/linux/ubuntu bionic-cran40/'
 
 The latest command will include this line in the `/etc/apt/sources.list` file:
 (this step can be done manually)
 
-    deb https://cloud.r-project.org/bin/linux/ubuntu bionic-cran35/
+    deb https://cloud.r-project.org/bin/linux/ubuntu bionic-cran40/
 
 
 Then in you shell:
 
     sudo apt-get update
     sudo apt-get upgrade
-    sudo apt-get install r-base-core r-base-deb
+    sudo apt-get install r-base r-base-core r-base-deb
 
 Bioconductor + packages
 
@@ -33,7 +35,7 @@ Bioconductor + packages
 
     source("http://bioconductor.org/biocLite.R")
     biocLite()
-    install.packages(c ("dplyr", "ggplot2", "openxlsx", "feather",
+    install.packages(c("dplyr", "ggplot2", "openxlsx", "feather",
                         "RSQLite", "jsonlite",
                         "curl", "RCurl", 
                         "knitr", "markdown", "shiny"))
@@ -61,6 +63,7 @@ Extra
 If you need to install the [RCurl](http://cran.es.r-project.org/web/packages/RCurl/index.html) library then do
 
     sudo apt-get install libcurl4-openssl-dev
+
 __Do not use__ `sudo apt-get install libcurl4-gnutls-dev` because apparently it gives some problems... see [here](https://github.com/jeroenooms/curl/issues/63)
 
 Sometimes you may need to install `libcurl4-openssl-dev` from [sources](http://packages.ubuntu.com/trusty/amd64/libcurl4-openssl-dev/download)
@@ -103,7 +106,7 @@ Load R as root:
 
 and then:
 
-    update.packages ()
+    update.packages()
 
 
 
@@ -136,7 +139,7 @@ The Bioconductor version will depend on your R version.
 You can find your Bioconductor version doing: 
 
     R
-    BiocInstaller::biocVersion ()
+    BiocInstaller::biocVersion()
 
 Sometimes `BiocInstaller` is a bit old and `biocLite` does not upgrade Bioconductor properly. In such cases I uninstall `BiocInstaller` manually:   
 
