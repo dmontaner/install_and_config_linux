@@ -62,7 +62,7 @@ With this set up:
 
 - `python3.8` is installd in `/usr/bin/python3.8`
 - `pip3.8`    is installd in `/usr/local/bin/pip3.8`
-- python3.8 library is installed in `/usr/local/lib`
+- `python3.8` library is  in `/usr/local/lib`
 
 
 
@@ -235,7 +235,7 @@ igraph dependencies:
 
     sudo ln -s /usr/lib/x86_64-linux-gnu/libOpenCL.so.1 /usr/lib/libOpenCL.so  # I am not sure if I need this
 
-igraph plotting dependences:
+igraph plotting dependencies:
 
     sudo apt-get install libcairo2-dev
     sudo -H pip3 install pycairo
@@ -259,3 +259,33 @@ Usage:
 
     mprof run my_script.py
     mprof plot
+
+
+
+
+Pygame
+--------------------------------------------------------------------------------
+
+See:
+
+- https://forum.ubiquityrobotics.com/t/im-trying-to-install-some-software-packages-but-i-keep-getting-errors/363/4
+- https://stackoverflow.com/questions/61893077/cannot-install-pygame
+
+Needed all this dependencies:
+
+```
+sudo apt-get install git python3-dev python3-setuptools python3-numpy python3-opengl \
+    libsdl-image1.2-dev libsdl-mixer1.2-dev libsdl-ttf2.0-dev libsmpeg-dev \
+    libsdl1.2-dev libportmidi-dev libswscale-dev libavformat-dev libavcodec-dev \
+    libtiff5-dev libx11-6 libx11-dev fluid-soundfont-gm timgm6mb-soundfont \
+    xfonts-base xfonts-100dpi xfonts-75dpi xfonts-cyrillic fontconfig fonts-freefont-ttf libfreetype6-dev
+```
+
+And I am not sure if these where necessary:
+
+    sudo apt-get build-dep python-pygame-sdl2
+
+
+Then you can do:
+
+    sudo -H pip3.8 install pygame
