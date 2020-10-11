@@ -17,6 +17,12 @@ Then:
 
     sudo apt install nginx
     
+Start and stop sefvice:
+
+    sudo /etc/init.d/nginx start
+    sudo /etc/init.d/nginx stop
+    sudo /etc/init.d/nginx status
+
     
     
 
