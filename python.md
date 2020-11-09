@@ -4,8 +4,6 @@
 General dependencies
 =======================================================================
 
-# sudo python-dev python3-dev
-
 ``` \
 sudo apt-get install -y \
 guile-2.0-dev \
@@ -19,6 +17,16 @@ zlib1g-dev libsqlite3-dev tk-dev \
 libssl-dev openssl \
 libffi-dev \
 python3-testresources python3-widgetsnbextension \
+```
+
+Install in Ubuntu
+=======================================================================
+
+```
+sudo apt-get install python3.7
+sudo apt-get install python3.7-dev
+sudo apt-get install python3.7-doc
+sudo apt-get install python3.7-venv  # needed for the venv to work
 ```
 
 Updated ppa
@@ -64,6 +72,11 @@ With this set up:
 - `pip3.8`    is installd in `/usr/local/bin/pip3.8`
 - `python3.8` library is  in `/usr/local/lib`
 
+
+__Problem__: `venv` does not work properly wiht this setup (with the ppa:deadsnakes/ppa)
+
+    python3.8 -m venv my_env_folder
+    Error: Command '['/home/dmontaner/programas/sandbox/my_env_folder/bin/python3.8', '-Im', 'ensurepip', '--upgrade', '--default-pip']' returned non-zero exit status 1.
 
 
 Install From repositories
