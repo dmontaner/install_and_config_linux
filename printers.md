@@ -49,4 +49,4 @@ Download __.deb__ file from:
 
 and install as any other deb file.
 
-Then standard printer setup.
+You do not need the standard printer setup, the printer just apears in the printers list.
