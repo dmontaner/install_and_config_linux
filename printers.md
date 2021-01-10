@@ -43,10 +43,14 @@ Brother HL-L2350DW
 
 [Support page](https://support.brother.com/g/b/producttop.aspx?c=gb&lang=en&prod=hll2350dw_us_eu_as)
 
-Download __.deb__ file from:  
+From <https://support.brother.com/g/b/downloadlist.aspx?c=gb&lang=en&prod=hll2350dw_us_eu_as&os=128>
 
-<https://support.brother.com/g/b/downloadlist.aspx?c=gb&lang=en&prod=hll2350dw_us_eu_as&os=128>
+Download __.deb__ file and 
 
-and install as any other deb file.
+    sudo dpkg -i hll2350dwpdrv-4.0.0-1.i386.deb 
+
+Or, with the installer, unzip and
+
+    sudo bash linux-brprinter-installer-2.2.2-1 HL-L2350DW
 
 You do not need the standard printer setup, the printer just apears in the printers list.
