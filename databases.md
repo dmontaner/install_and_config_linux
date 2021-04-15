@@ -81,7 +81,7 @@ New version:
 ``` 
 cd /opt
 wget -qO- https://repo1.maven.org/maven2/org/flywaydb/flyway-commandline/7.8.0/flyway-commandline-7.8.0-linux-x64.tar.gz | sudo tar xvz
-sudo chmod 755
+sudo chmod 755 flyway-7.8.0/flyway
 
 cd /usr/local/bin
 sudo ln -s /opt/flyway-7.8.0/flyway .   
