@@ -22,7 +22,7 @@ From
 
 Test as:
 
-    services --status-all
+    service --status-all
 
 Find current ip:
 
