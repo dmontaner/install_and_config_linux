@@ -43,6 +43,16 @@ Server:
     sudo apt-get install mysql-server
 
 
+Start and stop service:
+
+    service --status-all
+
+    service mysql status
+
+    sudo service mysql stop
+    sudo service mysql start
+
+
 R libraries for MySQL
 -------------------------
 
