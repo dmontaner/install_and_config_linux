@@ -23,7 +23,7 @@ Important note from <https://github.com/input-output-hk/plutus>:
 
 > If you want to use Nix with this project, 
 > __make sure to set up the IOHK binary cache__.
-? If you do not do this, you will end up building GHC, which takes __several hours__.
+> If you do not do this, you will end up building GHC, which takes __several hours__.
 
 
 Add this 2 lines to ` ~/.config/nix/nix.conf`:
