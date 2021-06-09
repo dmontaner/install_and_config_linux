@@ -5,7 +5,7 @@
 
 To install a more up to date version see <https://www.haskell.org/ghcup/>
 
-> ghcup is the main installer for
+> ghcup is the main installer forY
 > the general purpose language Haskell
 
 Install dependencies:
