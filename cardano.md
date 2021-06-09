@@ -59,8 +59,9 @@ When the `nix-shell` is running:
     cd plutus-playground-client  # client again here
     npm run start
 
-`npm` takes a bit to start and you may need `npm audit fix` before `npm run start`
+`npm` takes a bit to start and some packages are old.
+But __I don't need__ `npm audit fix` before `npm run start`!
 
-Now the web site should be running at <https://localhost:8009/>
+Now the web site should be running at <https://loclahost:8009/>
 
 Note that has to be __secure__ (https) and that the first time the browser will ask you to accept an exception for the site.

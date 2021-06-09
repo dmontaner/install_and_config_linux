@@ -47,7 +47,7 @@ But those are __old__
     sudo apt-get --purge remove cabal-install
 
 
-## Buld GHC from source
+## Build GHC from source
 
 See <https://www.haskell.org/ghc/download_ghc_8_10_4.html#linux_x86_64>
 
