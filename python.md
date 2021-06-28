@@ -10,7 +10,6 @@ guile-2.0-dev \
 build-essential python-dev \
 libigraph0-dev libigraph0v5 \
 guile-2.0-dev \
-python3-tk \
 unixodbc unixodbc-dev \
 libncursesw5-dev libgdbm-dev libc6-dev \
 zlib1g-dev libsqlite3-dev tk-dev \
@@ -18,6 +17,8 @@ libssl-dev openssl \
 libffi-dev \
 python3-testresources python3-widgetsnbextension \
 ```
+
+
 
 Install in Ubuntu
 =======================================================================
@@ -28,7 +29,12 @@ sudo apt-get install python3.7-dev
 sudo apt-get install python3.7-doc
 sudo apt-get install python3.7-venv  # needed for the venv to work
 ```
+tkinter support
+-------------------------------
 
+```
+sudo apt-get install python3-tk python3-tk-dbg
+```
 Updated ppa
 =======================================================================
 
