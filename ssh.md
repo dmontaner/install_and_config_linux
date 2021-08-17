@@ -40,3 +40,8 @@ In `/etc/hosts`:
 192.168.0.4 name2
 192.168.0.5 name3
 ```
+
+Generate public key from private
+-----------------------------------------------------------------------
+
+    ssh-keygen -y -f id_key > id_key.pub
