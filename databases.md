@@ -10,7 +10,7 @@ Add the repository to the list. Edit the file `/etc/apt/sources.list` and includ
 
     deb http://apt.postgresql.org/pub/repos/apt/ trusty-pgdg main
 
-Add puclic key
+Add public key
 
     wget https://www.postgresql.org/media/keys/ACCC4CF8.asc 
     sudo apt-key add ACCC4CF8.asc
@@ -18,6 +18,25 @@ Add puclic key
 A nice tool: pgadmin3 
 
     sudo apt-get install pgadmin3
+
+Create users
+-------------------------
+
+In the bash terminal:
+
+    sudo -u postgres createuser --interactive
+
+(It is easier if the user name is as the one in your machine.)
+
+And update the database:
+
+    createdb
+
+And will ask you for the name
+
+- `\du`: sow users or roles
+- `\l+`: show databases
+- `\d+`: show tables
 
 
 R libraries for postgres
