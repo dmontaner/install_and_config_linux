@@ -44,3 +44,28 @@ Ummount:
     sudo umount /home/dmontaner/data/2021/esg_nlp/mtest
 
 https://buildmedia.readthedocs.org/media/pdf/s3fs/latest/s3fs.pdf
+
+
+
+Use different sets of credentials
+----------------------------------------------------------------------------------
+
+See <https://docs.aws.amazon.com/cli/latest/userguide/cli-configure-profiles.html>
+
+`~/.aws/credentials` file will be: 
+
+```
+[default]
+aws_access_key_id=AKIAIOSFODNN7EXAMPLE
+aws_secret_access_key=wJalrXUtnFEMI/K7MDENG/bPxRfiCYEXAMPLEKEY
+
+[user1]
+aws_access_key_id=AKIAI44QH8DHBEXAMPLE
+aws_secret_access_key=je7MtGbClwBF/2Zp9Utk/h3yCo8nvbEXAMPLEKEY
+```
+
+Then you can do:
+
+    aws --profile user1 s3 ls
+    
+put an alias in your `.bashrc` file
