@@ -79,6 +79,11 @@ Remove old cluster (will delete the data):
 
 https://www.postgresql.org/docs/current/upgrading.html
 
+See status
+
+    $ pg_isready
+    /var/run/postgresql:5433 - accepting connections
+
 
 Create users
 -------------------------
@@ -104,6 +109,15 @@ And then create the database:
     createdb
 
 it will create a database with your username.
+
+
+Set your password;
+see [Change a role's password:](https://www.postgresql.org/docs/current/sql-alterrole.html))
+
+    ALTER ROLE dmontaner WITH PASSWORD 'hu8jmn3';
+
+This may be useful to use `.pgpass` file for authentication.
+See https://www.postgresql.org/docs/current/libpq-pgpass.html
 
 
 Some useful commands in psql
