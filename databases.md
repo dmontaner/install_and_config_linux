@@ -4,37 +4,110 @@ Postgres
     sudo apt-get install postgresql
     sudo apt-get install postgresql-contrib 
 
+See the "Create users" section as you will need this to run.
+
 --------------------------------------------------------------------------------
 
 For the latest version you can add the postgres repo <http://www.postgresql.org/download/linux/ubuntu/>:
 
-Add the repository to the `/etc/apt/sources.list` file:
+Add the repository to the `/etc/apt/sources.list` file
+[See](https://phoenixnap.com/kb/how-to-install-postgresql-on-ubuntu):
 
+    wget --quiet -O - https://www.postgresql.org/media/keys/ACCC4CF8.asc | sudo apt-key add -
     sudo sh -c 'echo "deb http://apt.postgresql.org/pub/repos/apt/ `lsb_release -cs`-pgdg main" >> /etc/apt/sources.list'
 
-Add public key
+    sudo apt-get update
 
-    wget https://www.postgresql.org/media/keys/ACCC4CF8.asc 
-    sudo apt-key add ACCC4CF8.asc
+    sudo apt-get install postgresql
+    sudo apt-get install postgresql-contrib 
 
-A nice tool: pgadmin3 
+
+Update
+--------------------------------------------------------------------------------
+
+__apt updates of the database are prevented by default.__
+
+If you really want to reinstall `postgresql` and `postgresql-contrib` then remove this kind of files 
+
+    /etc/apt/apt.conf.d/01autoremove-postgresql
+    /etc/apt/apt.conf.d/02autoremove-postgresql
+    /etc/apt/apt.conf.d/0*autoremove-postgresql
+
+
+Then clean up the old versions:
+
+    sudo apt-get remove --purge postgresql-13
+    
+this will ask if you want to remove the old files (database)
+
+And install the new one:
+
+    sudo apt-get install postgresql-14
+
+
+IDE-style clients and tools
+--------------------------------------------------------------------------------
+
+DBeaver:
+
+    sudo snap install dbeaver-ce
+
+
+A nice tool: pgAdmin is the most popular and feature rich Open Source administration and development platform for PostgreSQL
 
     sudo apt-get install pgadmin3
+
+
+Some useful commands
+--------------------------------------------------------------------------------
+
+Find my version
+
+    psql -V
+    apt show postgresql
+
+List all the Postgres clusters running on your device
+    
+    $ pg_lsclusters 
+    Ver Cluster Port Status                Owner     Data directory              Log file
+    10  main    5432 down,binaries_missing <unknown> /var/lib/postgresql/10/main /var/log/postgresql/postgresql-10-main.log
+    14  main    5433 online                postgres  /var/lib/postgresql/14/main /var/log/postgresql/postgresql-14-main.log
+
+Remove old cluster (will delete the data):
+
+    $ sudo pg_dropcluster --stop 10 main
+
+https://www.postgresql.org/docs/current/upgrading.html
+
 
 Create users
 -------------------------
 
-In the bash terminal:
+In the newly installed database you need to create your __user__ and a __database__ for it;
+if not you may get this kind of errors:
 
-    sudo -u postgres createuser --interactive
+    $ psql 
+    psql: error: connection to server on socket "/var/run/postgresql/.s.PGSQL.5433" failed: FATAL:  role "dmontaner" does not exist
+    psql: error: connection to server on socket "/var/run/postgresql/.s.PGSQL.5433" failed: FATAL:  database "dmontaner" does not exist
 
-(It is easier if the user name is as the one in your machine.)
+First create your user
+(it is easier if the user name is as the one in your machine)
+in the bash terminal:
 
-And update the database:
+    $ sudo -u postgres createuser --interactive
+
+    Enter name of role to add: dmontaner
+    Shall the new role be a superuser? (y/n) y
+
+And then create the database:
 
     createdb
 
-And will ask you for the name
+it will create a database with your username.
+
+
+Some useful commands in psql
+--------------------------------------------------------------------------------
 
 - `\du`: sow users or roles
 - `\l+`: show databases
