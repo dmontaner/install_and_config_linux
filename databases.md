@@ -10,7 +10,7 @@ For the latest version you can add the postgres repo <http://www.postgresql.org/
 
 Add the repository to the `/etc/apt/sources.list` file:
 
-    sudo sh -c 'echo "deb http://apt.postgresql.org/pub/repos/apt/ 'lsb_release -cs'-pgdg main" >> /etc/apt/sources.list'
+    sudo sh -c 'echo "deb http://apt.postgresql.org/pub/repos/apt/ `lsb_release -cs`-pgdg main" >> /etc/apt/sources.list'
 
 Add public key
 
