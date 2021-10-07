@@ -4,11 +4,13 @@ Postgres
     sudo apt-get install postgresql
     sudo apt-get install postgresql-contrib 
 
+--------------------------------------------------------------------------------
+
 For the latest version you can add the postgres repo <http://www.postgresql.org/download/linux/ubuntu/>:
 
-Add the repository to the list. Edit the file `/etc/apt/sources.list` and include the line:
+Add the repository to the `/etc/apt/sources.list` file:
 
-    deb http://apt.postgresql.org/pub/repos/apt/ trusty-pgdg main
+    sudo sh -c 'echo "deb http://apt.postgresql.org/pub/repos/apt/ 'lsb_release -cs'-pgdg main" >> /etc/apt/sources.list'
 
 Add public key
 
