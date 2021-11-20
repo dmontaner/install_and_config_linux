@@ -316,5 +316,5 @@ Jax
 
 See: https://github.com/google/jax#installation
 
-   pip install jax
-   pip install jax[cpu]
+    pip install jax
+    pip install jax[cpu]
