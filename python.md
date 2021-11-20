@@ -308,3 +308,13 @@ And I am not sure if these where necessary:
 Then you can do:
 
     sudo -H pip3.8 install pygame
+
+
+
+Jax
+-----------------------------------------------------------------------------
+
+See: https://github.com/google/jax#installation
+
+   pip install jax
+   pip install jax[cpu]
