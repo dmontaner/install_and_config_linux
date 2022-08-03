@@ -78,3 +78,27 @@ default password: raspberry
 
 See
 <https://www.raspberrypi.org/forums/viewtopic.php?t=133691>
+
+
+
+Chrome OS
+===================================================================================
+
+Download image from the Assets section in:
+<https://github.com/FydeOS/chromium_os-raspberry_pi/releases>
+
+Use etcher to burn the SD card <https://www.balena.io/etcher/>  
+Debian and Ubuntu based Package Repository (GNU/Linux x86/x64) here:  
+https://github.com/balena-io/etcher?d_id=fd32b931-be9a-40f8-8eda-45e659caf111R#debian-and-ubuntu-based-package-repository-gnulinux-x86x64
+
+```
+curl -1sLf \
+   'https://dl.cloudsmith.io/public/balena/etcher/setup.deb.sh' \
+   | sudo -E bash
+Update and install:
+
+sudo apt-get update
+sudo apt-get install balena-etcher-electron
+```
+
+Find the balenaEtcher GUI.
