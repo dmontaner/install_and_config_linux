@@ -1,4 +1,11 @@
-requests
+Jinja2
+jinja2-cli
+pytest
+virtualenv
+tox
+tox-venv
+ipython[all]
+
 pyyaml
 yq
 jsonschema
@@ -19,7 +26,6 @@ pyodbc
 boto3
 botocore
 moto
-cx-Oracle
 
 flask
 flask_httpauth
@@ -47,3 +53,7 @@ gensim
 spacy
 
 tensorflow
+torch
+transformers
+bert-embeddings
+transformers

@@ -29,13 +29,15 @@ sudo apt-get install python3.7-dev
 sudo apt-get install python3.7-doc
 sudo apt-get install python3.7-venv  # needed for the venv to work
 ```
+
 tkinter support
 -------------------------------
 
 ```
 sudo apt-get install python3-tk python3-tk-dbg
 ```
-Updated ppa
+
+Updated ppa for latest versions
 =======================================================================
 
 Notes from <https://docs.python-guide.org/starting/install3/linux/>
@@ -46,8 +48,16 @@ Install python:
 sudo apt-get install software-properties-common
 sudo add-apt-repository ppa:deadsnakes/ppa
 sudo apt-get update
-sudo apt-get install python3.8
+sudo apt-get install python3.10
 ```
+
+Install pip for this version of python
+
+    sudo python3.10 -m ensurepip --default-pip -U
+
+will generate the `pip3.10` executable located at `usr/local/bin/pip3.10`
+
+
 
 Extra dependencies (version dependent)
 
