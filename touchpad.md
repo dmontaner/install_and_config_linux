@@ -20,8 +20,6 @@ org.gnome.desktop.peripherals.touchpad tap-and-drag-lock false
 org.gnome.desktop.peripherals.touchpad tap-button-map 'default'
 org.gnome.desktop.peripherals.touchpad tap-to-click true
 org.gnome.desktop.peripherals.touchpad two-finger-scrolling-enabled true
-dmontaner@antic:~$ gsettings set 
-Display all 285 possibilities? (y or n)
 
 $ gsettings set org.gnome.desktop.peripherals.touchpad natural-scroll false 
 
