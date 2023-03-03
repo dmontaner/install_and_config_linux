@@ -32,6 +32,7 @@ Install dependencies
 
     sudo apt install make gcc libgtk-3-dev libxaw7-dev
     sudo apt install libxpm-dev libjpeg-dev libgif-dev libtiff-dev libgnutls28-dev
+    sudo apt-get install libncurses-dev
 
 Download the latest version from https://www.gnu.org/software/emacs/
 
