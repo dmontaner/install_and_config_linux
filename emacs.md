@@ -24,12 +24,14 @@ Some more dependencies:
 
 --------------------------------------------------------------------
 
-Install from sources. See https://memopixel.com/building-emacs-28-1-from-source-code
+Install from sources. See:
+- <https://memopixel.com/building-emacs-28-1-from-source-code>
+- <https://stackoverflow.com/a/60788881>
 
 Install dependencies
 
     sudo apt install make gcc libgtk-3-dev libxaw7-dev
-
+    sudo apt install libxpm-dev libjpeg-dev libgif-dev libtiff-dev libgnutls28-dev
 
 Download the latest version from https://www.gnu.org/software/emacs/
 
