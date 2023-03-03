@@ -24,6 +24,13 @@ Some more dependencies:
 
 --------------------------------------------------------------------
 
+Install from sources. See https://memopixel.com/building-emacs-28-1-from-source-code
+
+Install dependencies
+
+    sudo apt install make gcc libgtk-3-dev libxaw7-dev
+
+
 Download the latest version from https://www.gnu.org/software/emacs/
 
     wget http://ftp.gnu.org/gnu/emacs/emacs-26.1.tar.gz
