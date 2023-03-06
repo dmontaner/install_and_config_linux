@@ -60,3 +60,4 @@ transformers
 
 ipython
 jupyterlab
+py2nb
