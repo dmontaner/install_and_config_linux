@@ -57,3 +57,6 @@ torch
 transformers
 bert-embeddings
 transformers
+
+ipython
+jupyterlab
