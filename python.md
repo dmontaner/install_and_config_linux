@@ -37,7 +37,7 @@ Then for `pip`:
     sudo apt-get install python3-pip
     sudo python3.11 -m pip install -U pip
 
-The first line above installs `pip` for python3.10
+The first line above installs `pip` for python3.10.  
 The xecutable file is located at:
 
     /usr/bin/pip
