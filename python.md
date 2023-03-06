@@ -18,17 +18,36 @@ libffi-dev \
 python3-testresources python3-widgetsnbextension \
 ```
 
-
-
 Install in Ubuntu
 =======================================================================
 
+`python3.10` comes by default in Ubuntu 22.04.
+
+Install `python3.11`:
+
 ```
-sudo apt-get install python3.7
-sudo apt-get install python3.7-dev
-sudo apt-get install python3.7-doc
-sudo apt-get install python3.7-venv  # needed for the venv to work
+sudo apt-get install python3.11
+sudo apt-get install python3.11-dev
+sudo apt-get install python3.11-doc
+sudo apt-get install python3.11-venv  # needed for the venv to work
 ```
+
+Then for `pip`:
+
+    sudo apt-get install python3-pip
+    sudo python3.11 -m pip install -U pip
+
+The first line above installs `pip` for python3.10
+The xecutable file is located at:
+
+    /usr/bin/pip
+
+and the python library is located at:
+
+    /usr/lib/python3/dist-packages/pip/__init__.py
+
+
+
 
 tkinter support
 -------------------------------
