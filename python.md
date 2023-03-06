@@ -1,6 +1,5 @@
 [<- Index](000_index.md)
 
-
 General dependencies
 =======================================================================
 
@@ -46,8 +45,13 @@ and the python library is located at:
 
     /usr/lib/python3/dist-packages/pip/__init__.py
 
+The second line installs the executables:
+    /usr/local/bin/pip3
+    /usr/local/bin/pip3.11
 
+and the python library:
 
+    /usr/local/lib/python3.11/dist-packages/pip/__init__.py
 
 tkinter support
 -------------------------------
