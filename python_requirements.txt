@@ -61,3 +61,4 @@ transformers
 ipython
 jupyterlab
 py2nb
+jupyter_contrib_nbextensions
