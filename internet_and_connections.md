@@ -1,6 +1,6 @@
 # Signal strength of wireless
 
-    sudo apt-get install iwconfig wavemon
+    sudo apt-get install watch wireless-tools wavemon 
 
 [On the command line you can use iwconfig and look for "Link Quality" and "Signal level" values.](https://askubuntu.com/a/95685/471775)
 
