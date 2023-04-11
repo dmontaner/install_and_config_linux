@@ -3,8 +3,8 @@
 Okular
 ======
 
-    sudo apt-get install okular okular-extra-backends okular-backend-odp
-
+    sudo apt-get install okular*
+    sudo apt-get install xournal  # this one is to insert signatures
 
 Okular supports for __forms__ and annotations.
 
