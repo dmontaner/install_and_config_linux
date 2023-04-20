@@ -1,26 +1,18 @@
 Install Java
 ============
-Go to <http://www.oracle.com/technetwork/java/javase/downloads>
-and download the .dev file. Then:
 
-    sudo dpkg -i jdk-14.0.2_linux-x64_bin.deb 
+Download the right file from <http://www.oracle.com/technetwork/java/javase/downloads>
 
-------
+    wget https://download.oracle.com/java/17/latest/jdk-17_linux-x64_bin.tar.gz
+    tar -xvzf jdk-17_linux-x64_bin.tar.gz
 
-Go to <http://www.oracle.com/technetwork/java/javase/downloads>
-and follow the __JDK__ download link (not the JRE ones)
+    jdk-17.0.6/bin/java -version  # test
 
-Accept the _License Agreement_ and download the file: jdk-****-linux-x64.tar.gz
+    sudo mv jdk-17.0.6/ /opt
+    sudo chown -R root.root /opt/jdk-17.0.6
+    sudo ln -s /opt/jdk-17.0.6/ /opt/java
 
-Decompress in the folder `/opt` creating the sub-folder 'jdk-****'
-
-    sudo tar -xvzf jdk-8u11-linux-x64.tar.gz 
-
-Create the __symbolic link__ *: 
-
-    sudo ln -s /opt/jdk-**** /opt/java
-
-Add the /opt/java folder to your path. Use the `/etc/profile` file to do this
+Add the /opt/java folder to your path. Use the `/etc/profile` or .etc `.bashrc` file to do this
 
     export JAVA_HOME=/opt/java
     export PATH=$JAVA_HOME/bin:$PATH
@@ -28,6 +20,20 @@ Add the /opt/java folder to your path. Use the `/etc/profile` file to do this
 Thus when you __upgrade__ your java version you just need to rewrite the __symbolic link__ * 
 
 The '$JAVA_HOME' variable is used by some applications, R for instance.
+
+--------------------------------------------------------------------------------
+
+I CAN NEVER IN INSTALL IT FROM dev FILES. DO NOT BOTHER FOR THE NEXT TIME
+MOREOVER YOU DO NOT KNOW IF ANY OTHER TOOL DEPENDS ON ANY JAVA VERSION ALREADY SET UP SO DO NOT MES IT UP
+
+Download `.dev` file from <https://www.oracle.com/java/technologies/downloads/>
+
+    sudo apt-get install libc6-i386 libc6-x32  # dependencies
+
+    wget https://download.oracle.com/java/17/latest/jdk-17_linux-x64_bin.deb
+    sudo dpkg -i jdk-17_linux-x64_bin.deb
+
+# R
 
 __Remember to sign in as root when reconfiguring R (you get an error otherwise):__
 
@@ -61,9 +67,9 @@ See <http://askubuntu.com/questions/470485/java-plugin-issue-on-chrome-browser>
 Install certificates in Java
 ============================
 
-Some aplications may need a security __certificate__ to be installed in Java (probably also in your browser)
+Some applications may need a security __certificate__ to be installed in Java (probably also in your browser)
 
-To install such certificates run (acordng to the above installation): 
+To install such certificates run (according to the above installation): 
 
     /opt/java/bin/jcontrol
     

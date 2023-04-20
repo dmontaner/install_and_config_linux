@@ -59,6 +59,8 @@ transformers
 bert-embeddings
 transformers
 
+tornado
+psutil
 ipython
 jupyterlab
 py2nb
