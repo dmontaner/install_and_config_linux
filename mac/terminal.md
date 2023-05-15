@@ -9,3 +9,20 @@ In the final message it will give you a couple of commands to set add the brew p
 Then check that it is properly installed:
 
     brew doctor
+
+Then 
+    brew update
+
+Then search:
+
+    brew search emacs
+
+
+Then install things 
+
+```
+brew install emacs
+brew install python@3.11
+```
+
+https://formulae.brew.sh/formula/
