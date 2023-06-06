@@ -49,3 +49,13 @@ Then install to the system:
     sudo make install
 
 For configuration see https://github.com/dmontaner/.emacs.d
+
+--------------------------------------------------------------------
+
+## Key combination Ctrl+[Period] not working Ubuntu 22.04
+
+<https://askubuntu.com/questions/1404448/key-combination-ctrlperiod-not-working-ubuntu-22-04>
+
+Nowadays IBus uses that shortcut by default to access emojis.
+
+If you need the shortcut for other purposes, you can run `ibus-setup` in a terminal window, select the Emoji tab, and change the Emoji annotation shortcut to your liking.
