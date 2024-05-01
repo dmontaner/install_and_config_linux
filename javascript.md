@@ -4,15 +4,25 @@
 Install latest stable version
 --------------------------------------------------------------------------------
 
-See: 
+Find latest version at:
+- <https://deb.nodesource.com/>
 
+```
+curl -fsSL https://deb.nodesource.com/setup_20.x | sudo bash -
+sudo apt-get update
+sudo apt-get upgrade
+sudo apt-get install -y nodejs
+```
+
+See version:
+    node -v
+
+
+
+See also:
 - <https://github.com/nodesource/distributions/blob/master/README.md>
 - <https://nodejs.org/en/download/>
 
-```
-curl -sL https://deb.nodesource.com/setup_12.x | sudo -E bash -
-sudo apt-get install -y nodejs
-```
 
 Install nodejs and npm from Ubuntu repos
 --------------------------------------------------------------------------------
