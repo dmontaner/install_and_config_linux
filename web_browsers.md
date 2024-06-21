@@ -13,6 +13,9 @@ or from repos:
 
     sudo apt-get install google-chrome-stable
 
+Find __previous versions__ here:
+https://googlechromelabs.github.io/chrome-for-testing/#stable
+
 
 Install Chromium
 ================================================================================
