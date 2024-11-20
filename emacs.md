@@ -39,8 +39,8 @@ Download the latest version from https://www.gnu.org/software/emacs/
     wget http://ftp.gnu.org/gnu/emacs/emacs-26.1.tar.gz
     tar -vzxf emacs-26.1.tar.gz
     cd emacs-26.1/
-    ./configure
-    make
+    ./configure --with-json --with-native-compilation --with-gtk3
+    make -j$(nproc)  # Use all available cores for faster compilation
     
 Try the executables which should be placed in folder `/src`
     
