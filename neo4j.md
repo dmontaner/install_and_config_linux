@@ -51,3 +51,5 @@ and add the JAVA_HOME variable to my .bashrc file
 # Docs
 
 - [Default file locations](https://neo4j.com/docs/operations-manual/current/configuration/file-locations/)
+
+
