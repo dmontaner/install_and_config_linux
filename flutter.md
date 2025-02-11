@@ -61,13 +61,7 @@ or from Android Studio:
 
 go to SDK Manager → SDK Tools tab → NDK (reinstall the NDK version you're using or install the latest stable version).
 
-
-
 content_copy
 Use the following sudo apt-get commands.
-
-
-
-
 
 flet build apk
