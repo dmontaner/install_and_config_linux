@@ -16,6 +16,12 @@ mise exec python@3.12 -- python
 > sys.executable
 
 ```
+## Poetry
+
+    mise install poetry
+    mise install poetry@2.1.2
+
+## activeate
 
 For mise to automatically switch Python versions when you cd into your project directory (containing a `mise.toml` file),
 you need to activate mise in your shell. Add the following line to your shell configuration file:
