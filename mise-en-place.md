@@ -29,3 +29,7 @@ you need to activate mise in your shell. Add the following line to your shell co
 For Bash (~/.bashrc):
 
     eval "$(mise activate bash)"
+
+## find installed versions
+
+    mise ls --installed
