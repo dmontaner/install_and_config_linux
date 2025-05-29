@@ -4,7 +4,9 @@ https://mise.jdx.dev/getting-started.html
 
     curl https://mise.run | sh
 
-# useful commands
+# useful commands for python
+
+https://mise.jdx.dev/lang/python.html
 
 ```
 mise install python@3.12
